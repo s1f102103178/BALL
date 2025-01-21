@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>指標比較グラフ</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="comparison.js"></script>
+    <link rel="stylesheet" href="comparison.css">
+</head>
+<body>
+
+        <!-- ヘッダー -->
+        <header>
+            <div class="logo">
+                <h1>BALL</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li><a href="Team/teams.html">チーム一覧</a></li>
+                    <li><a href="gpc.html">名球会入り選手</a></li>
+                    <li><a href="record.html">歴代の記録</a></li>
+                </ul>
+            </nav>
+        </header>
+    <h1>選手の指標変遷の比較:野手</h1>
+
+    <!-- 球団と選手選択メニュー -->
+    <div style="margin-bottom: 20px;">
+        <label for="team1Selector">球団:</label>
+        <select id="team1Selector">
+            <option value="タイガース">阪神タイガース</option>
+            <option value="カープ">広島東洋カープ</option>
+            <option value="ベイスターズ">横浜DeNAベイスターズ</option>
+            <option value="ジャイアンツ">読売巨人軍</option>
+            <option value="スワローズ">東京ヤクルトスワローズ</option>
+            <option value="ドラゴンズ">中日ドラゴンズ</option>
+            <option value="オリックス">オリックス・バファローズ</option>
+            <option value="ロッテ">千葉ロッテマリーンズ</option>
+            <option value="ホークス">福岡ソフトバンクホークス</option>
+            <option value="楽天">東北楽天ゴールデンイーグルス</option>
+            <option value="西武">埼玉西武ライオンズ</option>
+            <option value="日ハム">北海道日本ハムファイターズ</option>
+        </select>
+        <label for="player1Selector">選手:</label>
+        <select id="player1Selector"></select>
+    </div>
+
+    <div style="margin-bottom: 20px;">
+        <label for="team2Selector">球団:</label>
+        <select id="team2Selector">
+            <option value="オリックス">オリックス・バファローズ</option>
+            <option value="ロッテ">千葉ロッテマリーンズ</option>
+            <option value="ホークス">福岡ソフトバンクホークス</option>
+            <option value="楽天">東北楽天ゴールデンイーグルス</option>
+            <option value="西武">埼玉西武ライオンズ</option>
+            <option value="日ハム">北海道日本ハムファイターズ</option>
+            <option value="タイガース">阪神タイガース</option>
+            <option value="カープ">広島東洋カープ</option>
+            <option value="ベイスターズ">横浜DeNAベイスターズ</option>
+            <option value="ジャイアンツ">読売巨人軍</option>
+            <option value="スワローズ">東京ヤクルトスワローズ</option>
+            <option value="ドラゴンズ">中日ドラゴンズ</option>
+        </select>
+        <label for="player2Selector">選手:</label>
+        <select id="player2Selector"></select>
+    </div>
+
+    <!-- 指標選択メニュー -->
+    <div style="margin-bottom: 20px;">
+        <label for="statSelector">指標を選択:</label>
+        <select id="statSelector">
+            <option value="kper">K%</option>
+            <option value="iso">ISO</option>
+            <option value="babip">BABIP</option>
+            <option value="wsb">WSB</option>
+            <option value="wraa">WRAA</option>
+            <option value="wrcplus">WRC+</option>
+            <option value="bbper">BB%</option>
+            <option value="bb_k">BB/K</option>
+            <option value="spd">SPD</option>
+            <option value="ubr">UBR</option>
+            <option value="wrc">WRC</option>
+            <option value="woba">WOBA</option>
+        </select>
+    </div>
+
+    <!-- グラフ表示エリア -->
+    <div id="comparisonChart" style="width: 100%; height: 500px; border: 1px solid #ddd;"></div>
+
+
+        <!-- フッター -->
+        <footer>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="top.html">トップページ</a></li>
+                    <li><a href="Team/teams.html">チーム一覧</a></li>
+                    <li><a href="gpc.html">名球会入り選手</a></li>
+                    <li><a href="record.html">歴代の記録</a></li>
+                </ul>
+            </div>
+        </footer>
+</body>
+</html>

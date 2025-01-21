@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京ヤクルトスワローズ 吉村貢司郎</title>
+    <link rel="stylesheet" href="../../../main.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BALL</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../../../index.html">トップページ</a></li>
+                <li><a href="../../teams.html">選手一覧</a></li>
+                <li><a href="../../../gpc.html">名球会入り選手</a></li>
+                <li><a href="../../../record.html">歴代の記録</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="title-section">
+            <div class="photo">
+                <img src="../../../photo/player/Swallows/21.jpg" alt="顔写真">
+            </div>
+            <div class="name">
+                <h1>東京ヤクルトスワローズ</h1>
+                <h1>吉村 貢司郎</h1>
+                <h2>よしむら こうじろう</h2>
+            </div>
+        </div>
+        <div class="info">
+            <p>ポジション 投手</p>
+            <p>投打 右投右打</p>
+            <p>生年月日 1998年1月19日</p>
+            <p>身長/体重 183cm/85kg</p>
+            <p>ドラフト指名順位・年度 2022年ドラフト1位</p>
+        </div>
+                <div class="comment-section">
+                    <h3>寸評</h3>
+                    <p id="comment-content">振り子投法という独特なフォームが特徴。24シーズンは開幕から先発ローテーションを守り抜き、チームトップとなる9勝を挙げた。来季も投手陣の中心となって活躍が期待される。</p>
+                </div>
+        <br>
+        <!-- タブの追加 -->
+        <div class="tabs">
+            <button class="tab-link" onclick="openTab(event, 'careerStats')">通算成績</button>
+            <button class="tab-link" onclick="openTab(event, 'teamStats')">対チーム別成績</button>
+            <button class="tab-link" onclick="openTab(event, 'advancedStats')">指標</button>
+        </div>
+        
+        <!-- 通算成績のタブコンテンツ -->
+        <div id="careerStats" class="tab-content">
+            <!-- サブタブ（打撃成績、投手成績） -->
+            <div class="sub-tabs">
+                <button class="sub-tab-link active" onclick="switchSubTab(event, 'pitchingStats')">投手成績</button>
+                <button class="sub-tab-link" onclick="switchSubTab(event, 'battingStats')">打撃成績</button>
+            </div>
+            
+            <!-- 打撃成績コンテンツ -->
+            <div id="battingStats" class="sub-tab-content"　style="display: none;">
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>年度</th>
+                            <th>球団</th>
+                            <th>打率</th>
+                            <th>試合</th>
+                            <th>打席</th>
+                            <th>打数</th>
+                            <th>安打</th>
+                            <th>二塁打</th>
+                            <th>三塁打</th>
+                            <th>本塁打</th>
+                            <th>塁打</th>
+                            <th>打点</th>
+                            <th>得点</th>
+                            <th>盗塁</th>
+                            <th>盗塁刺</th>
+                            <th>犠打</th>
+                            <th>犠飛</th>
+                            <th>四球</th>
+                            <th>死球</th>
+                            <th>三振</th>
+                            <th>併殺打</th>
+                            <th>打率</th>
+                            <th>出塁率</th>
+                            <th>長打率</th>
+                            <th>OPS</th>
+                            <th>失策</th>
+                        </tr>
+                    </thead>
+                    <tbody id="yamada01-stats-body">
+                        <!-- 打撃成績を動的に追加 -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- 投手成績コンテンツ -->
+            <div id="pitchingStats" class="sub-tab-content" style="display:block;">
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>年度</th>
+                            <th>チーム名</th>
+                            <th>防御率</th>
+                            <th>登板</th>
+                            <th>先発</th>
+                            <th>完投</th>
+                            <th>完封</th>
+                            <th>無四球</th>
+                            <th>交代完了</th>
+                            <th>勝利</th>
+                            <th>敗戦</th>
+                            <th>ホールド</th>
+                            <th>セーブ</th>
+                            <th>勝率</th>
+                            <th>投球回</th>
+                            <th>打者</th>
+                            <th>被安打</th>
+                            <th>被本塁打</th>
+                            <th>奪三振</th>
+                            <th>奪三振率</th>
+                            <th>与四球</th>
+                            <th>暴投</th>
+                            <th>ボーク</th>
+                            <th>失点</th>
+                            <th>自責点</th>
+                            <th>被打率</th>
+                            <th>K/BB</th>
+                            <th>WHIP</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pitching-stats-body">
+                        <!-- 投手成績を動的に追加 -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        
+            <!-- 対チーム別成績のタブコンテンツ -->
+        <div id="teamStats" class="tab-content" style="display:none;">
+        <div id="team-stats-buttons-container"></div> <!-- 年度ごとのボタンを追加 -->
+        <div class="team-stats-container">
+            <table class="team-stats-table">
+                <thead>
+                    <tr>
+                        <th>チーム</th>
+                        <th>試合数</th>
+                        <th>打率</th>
+                        <th>本塁打</th>
+                        <th>打点</th>
+                        <th>盗塁</th>
+                    </tr>
+                </thead>
+                <tbody id="team-stats-body">
+                    <!-- 対チーム別成績を動的に追加 -->
+                </tbody>
+            </table>
+        </div>
+        </div>
+        
+        
+            <!-- 指標のタブコンテンツ -->
+            <div id="advancedStats" class="tab-content" style="display:none;">
+                <a href="../../../comparison.html">他選手との指標の比較</a>
+                
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>年度</th>
+                    <th data-tooltip="奪三振率">K%</th>
+                    <th data-tooltip="与四球率">BB%</th>
+                    <th data-tooltip="奪三振率と与四球率の差">K/BB</th>
+                    <th data-tooltip="被本塁打の割合">HR%</th>
+                    <th data-tooltip="被打率">AVE</th>
+                    <th data-tooltip="ホームランとファールを除いた打球のアウトになった割合">DER+</th>
+                    <th data-tooltip="出塁させてしまった走者の非帰還率">LOB%</th>
+                    <th data-tooltip="失点率を平均基準にして指数化したもの">RA-</th>
+                    <th data-tooltip="FIPを平均基準にして指数化したもの">FIP-</th>
+                    <th data-tooltip="xFIPを平均基準にして指数化したもの">xFIP-</th>
+                    <th data-tooltip="9イニングあたりの失点">RA</th>
+                    <th data-tooltip="四死球、奪三振、被本塁打による評価">FIP</th>
+                    <th data-tooltip="失点率とFIPの差">R-F</th>
+                    <th data-tooltip="基本はFIPと同じで、被本塁打でなく外野フライによる評価">xFIP</th>
+                    <th data-tooltip="四死球、奪三振、被打球による評価">tRA</th>
+                </tr>
+                    </thead>
+                    <tbody id="yamada01-advanced-stats-body">
+                        <!-- 指標データを動的に追加 -->
+                    </tbody>
+                </table>
+                <div class="chart-container">
+                    <div id="yamada01statsChart"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="popup" id="tooltip-popup">
+            <div class="popup-close" id="popup-close">×</div>
+            <h3 id="popup-title"></h3>
+            <p id="popup-content"></p>
+        </div>
+        
+        <script src="../JS/Swallows_12.js"></script>
+        </body>
+        </html>

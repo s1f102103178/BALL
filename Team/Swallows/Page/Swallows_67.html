@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京ヤクルトスワローズ 伊藤琉偉</title>
+    <link rel="stylesheet" href="../../../main.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BALL</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../../../index.html">トップページ</a></li>
+                <li><a href="../../teams.html">選手一覧</a></li>
+                <li><a href="../../../gpc.html">名球会入り選手</a></li>
+                <li><a href="../../../record.html">歴代の記録</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="title-section">
+            <div class="photo">
+                <img src="../../../photo/player/Swallows/67.jpg" alt="顔写真">
+            </div>
+            <div class="name">
+                <h1>東京ヤクルトスワローズ</h1>
+                <h1>伊藤 琉偉</h1>
+                <h2>いとう りゅうい</h2>
+            </div>
+        </div>
+        <div class="info">
+            <p>ポジション 内野手</p>
+            <p>投打 右投右打</p>
+            <p>生年月日 2002年9月11日</p>
+            <p>身長/体重 180cm/78kg</p>
+            <p>ドラフト指名順位・年度 2023年ドラフト5位</p>
+        </div>
+                <div class="comment-section">
+                    <h3>寸評</h3>
+                    <p id="comment-content">高い守備力に定評がある。二軍で実戦経験を積み、打撃力を高めて一軍に少しでも近づけるようにしたい。</p>
+                </div>
+        <br>
+        <!-- タブの追加 -->
+        <div class="tabs">
+            <button class="tab-link" onclick="openTab(event, 'careerStats')">通算成績</button>
+            <button class="tab-link" onclick="openTab(event, 'teamStats')">対チーム別成績</button>
+            <button class="tab-link" onclick="openTab(event, 'advancedStats')">指標</button>
+        </div>
+        
+        <!-- 通算成績のタブコンテンツ -->
+        <div id="careerStats" class="tab-content">
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>年度</th>
+                        <th>球団</th>
+                        <th>打率</th>
+                        <th>試合</th>
+                        <th>打席</th>
+                        <th>打数</th>
+                        <th>安打</th>
+                        <th>二塁打</th>
+                        <th>三塁打</th>
+                        <th>本塁打</th>
+                        <th>塁打</th>
+                        <th>打点</th>
+                        <th>得点</th>
+                        <th>三振</th>
+                        <th>四球</th>
+                        <th>死球</th>
+                        <th>犠打</th>
+                        <th>犠飛</th>
+                        <th>盗塁</th>
+                        <th>盗塁死</th>
+                        <th>併殺打</th>
+                        <th>出塁率</th>
+                        <th>長打率</th>
+                        <th>OPS</th>
+                        <th>得点圏</th>
+                        <th>失策</th>
+                    </tr>
+                </thead>
+                <tbody id="yamada01-stats-body">
+                    <!-- 成績を動的に追加 -->
+                </tbody>
+            </table>
+        </div>
+    
+        <!-- 対チーム別成績のタブコンテンツ -->
+    <div id="teamStats" class="tab-content" style="display:none;">
+    <div id="team-stats-buttons-container"></div> <!-- 年度ごとのボタンを追加 -->
+    <div class="team-stats-container">
+        <table class="team-stats-table">
+            <thead>
+                <tr>
+                    <th>チーム</th>
+                    <th>試合数</th>
+                    <th>打率</th>
+                    <th>本塁打</th>
+                    <th>打点</th>
+                    <th>盗塁</th>
+                </tr>
+            </thead>
+            <tbody id="team-stats-body">
+                <!-- 対チーム別成績を動的に追加 -->
+            </tbody>
+        </table>
+    </div>
+    </div>
+    
+    
+        <!-- 指標のタブコンテンツ -->
+        <div id="advancedStats" class="tab-content" style="display:none;">
+            <a href="../../../comparison.html">他選手との指標の比較</a>
+            
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>年度</th>
+                <th data-tooltip="三振率">K%</th>
+                <th data-tooltip="長打率">ISO</th>
+                <th data-tooltip="打球の運がどれだけ良いかを示す指標">BABIP</th>
+                <th data-tooltip="盗塁での貢献度">wSB</th>
+                <th data-tooltip="打者の打撃貢献度を示す指標">wRAA</th>
+                <th data-tooltip="打者の総合的な攻撃力を示す指標">wRC+</th>
+                <th data-tooltip="四球率">BB%</th>
+                <th data-tooltip="四球と三振の比率">BB/K</th>
+                <th data-tooltip="走塁の速さを示す指標">SPD</th>
+                <th data-tooltip="走塁での貢献度">UBR</th>
+                <th data-tooltip="打者の総合的な攻撃貢献度">wRC</th>
+                <th data-tooltip="打者の総合的な打撃成績を示す指標">wOBA</th>
+            </tr>
+                </thead>
+                <tbody id="yamada01-advanced-stats-body">
+                    <!-- 指標データを動的に追加 -->
+                </tbody>
+            </table>
+            <div class="chart-container">
+                <div id="yamada01statsChart"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="popup" id="tooltip-popup">
+        <div class="popup-close" id="popup-close">×</div>
+        <h3 id="popup-title"></h3>
+        <p id="popup-content"></p>
+    </div>
+    
+    <script src="../JS/Swallows_67.js"></script>
+    </body>
+    </html>

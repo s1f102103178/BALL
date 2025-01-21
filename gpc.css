@@ -1,0 +1,141 @@
+/* リセットスタイル */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 名球会選手一覧セクション */
+.meikyukai-list-container {
+    padding: 50px 20px;
+    background-color: #a79999;
+    margin: 30px auto;
+    max-width: 1400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.meikyukai-list-container h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.players-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.player-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+.player-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.player-card h3 {
+    font-size: 1.5rem;
+    color: #0055a5;
+    margin-bottom: 10px;
+}
+
+.player-card p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+/* フッター */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.players-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4列固定 */
+    gap: 20px; /* カード間の間隔 */
+    justify-items: center; /* 中央揃え */
+}

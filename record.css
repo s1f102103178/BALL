@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tab, .subTab, .subSubTab {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab button, .subTab button, .subSubTab button {
+    background-color: #1F5A7A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tab button:hover, .subTab button:hover, .subSubTab button:hover {
+    background-color: #4CAF50;
+}
+
+.tab button.active, .subTab button.active, .subSubTab button.active {
+    background-color: #555;
+}
+
+.mainTabContent, .subTabContent, .subSubTabContent {
+    display: none;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #1F5A7A;
+    color: white;
+}
+
+/* ヘッダー */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

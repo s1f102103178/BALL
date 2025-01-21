@@ -1,0 +1,143 @@
+/* リセットスタイル */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 球団選手一覧セクション */
+.players-list-container {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.players-list-container img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+}
+
+
+.players-list-container h2 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.position-group {
+    margin-bottom: 40px;
+}
+
+.position-group h3 {
+    font-size: 1.5rem;
+    color: #0055a5;
+    border-bottom: 2px solid #0055a5;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.players-list li img {
+    width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+
+.players-list li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.players-list li a {
+    text-decoration: none;
+    color: #003366;
+    transition: color 0.3s;
+}
+
+.players-list li a:hover {
+    color: #ff4500;
+}
+
+/* フッター */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用語解説ページ</title>
+    <link rel="stylesheet" href="wordstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BALL</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">トップページ</a></li>
+                <li><a href="Team/teams.html">選手一覧</a></li>
+                <li><a href="gpc.html">名球会入り選手</a></li>
+                <li><a href="record.html">歴代の記録</a></li>
+            </ul>
+        </nav>
+    </header>
+<h1>用語解説</h1>
+
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'pitcherTerms')">投手の用語</button>
+    <button class="tablinks" onclick="openTab(event, 'batterTerms')">野手の用語</button>
+    <button class="tablinks" onclick="openTab(event, 'commonTerms')">その他の用語</button>
+</div>
+
+<div id="pitcherTerms" class="tabcontent">
+    <input type="text" id="searchInputPitcher" onkeyup="filterTable('pitcherTable', 'searchInputPitcher')" placeholder="検索する用語を入力">
+    <table id="pitcherTable">
+        <thead>
+            <tr>
+                <th>用語</th>
+                <th>略称、英訳</th>
+                <th>解説</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><ruby>防御率<rt>ぼうぎょりつ</rt></ruby></td>
+                <td>ERA(Earned Run Average)</td>
+                <td>投手が9イニングあたり平均して何点を失うかを示す指標。「自責点×9÷投球イニング」で計算する。</td>
+            </tr>
+            <tr>
+                <td><ruby>自責点<rt>じせきてん</rt></ruby></td>
+                <td>ER(Earned Run)</td>
+                <td>投手の責任としてカウントされる失点の事。野手のエラーなどで「取れるアウトが取れず、そのアウトが取れていれば失点はなかった」ようなシチュエーションの失点が対象外となる。防御率の計算にはこの自責点が使われる。</td>
+            </tr>
+            <tr>
+                <td>ホールド</td>
+                <td>H(Hold)</td>
+                <td>・先発でなく、自身に勝利、敗戦、セーブが記録されない<br>・1つ以上のアウトを取っている<br>・自分が試合最後の自軍ピッチャーでないこと<br>・交代後、自身に記録される失点でチームが同点または逆転されないこと
+                <br>この条件下で「セーブと同じ条件下で投げる」または<br>同点の状況で登板し、同点のまま失点をせずに降板する<br>上記の条件を満たすと記録される。</td>
+            </tr>
+            <tr>
+                <td>ホールドポイント</td>
+                <td>HP(Hold Point)</td>
+                <td>「ホールド+勝ち星」で計算されるもの。NPBにおいて、最優秀中継ぎ投手賞はこのHPが最も多い選手へ送られる。</td>
+            </tr>
+            <tr>
+                <td>セーブ</td>
+                <td>S(Save)</td>
+                <td>・先発でなく、自身に勝利、敗戦が記録されない<br>・1つ以上のアウトを取っている<br>・自分が試合最後の自軍ピッチャーであること<br>上記の条件を満たしたうえで、
+                    <br>・登板時3点差以内で1イニング以上投げる<br>・登板した最初の打者と次の打者にHRを打たれたら同点or逆転の場面の登板<br>・点差は関係なく、3イニング以上投げる<br>上記の条件を満たすと記録される。
+                    <br>NPBにおいて、最多セーブ投手賞はこのセーブ数が最も多い選手へ送られる。</td>
+            </tr>
+            <tr>
+                <td>ワイルドピッチ</td>
+                <td>WP(Wild Pitch)</td>
+                <td>いわゆる「暴投」。ピッチャーの球が大きく逸れてキャッチャーが取れず、その結果ランナーが進塁してしまったときに記録される。</td>
+            </tr>
+            <tr>
+                <td>パスボール</td>
+                <td>passed ball</td>
+                <td>暴投にあたらない、キャッチャーが取れるであろう球を後ろや横に逸らすなどしてランナーが進塁したときに記録される。パスボールとワイルドピッチの匙加減は記録員によって決められる。</td>
+            </tr>
+            <tr>
+                <td><ruby>牽制<rt>けんせい</rt></ruby></td>
+                <td>pickoff</td>
+                <td>ピッチャーが投球前にボールをランナーのいるベースへ向かって投げる動作を指す。ランナーがベースに戻り切れずに先にベース上にいる野手にタッチされるとアウトとなる。</td>
+            </tr>
+            <tr>
+                <td>ボーク</td>
+                <td>balk</td>
+                <td>ピッチャーが牽制を行うときや投球する際にしてはいけない行為のこと。「投球動作を途中で止める」や「セットポジションで静止せずに投げる」などが該当する。</td>
+            </tr>
+            <tr>
+                <td>セットポジション</td>
+                <td>set position</td>
+                <td>ピッチャーが軸足(右投手なら右足、左なら左足)をプレートに付けて静止してから投げる姿勢の事。これに対して体がバッターに対して正面を向く姿勢から投球することを「ワインドアップ」という。</td>
+            </tr>
+            <!--後で消す-->
+            <tr>
+                <td>フィルダースチョイス</td>
+                <td>fielder's choice</td>
+                <td>「野選」と日本語では表記される。ランナーがいる状態で放たれた打球を処理するときにランナーをアウトにしようとしてアウトにできず、結果として1つもアウトを取れなかったときなどに記録される。</td>
+            </tr>
+            <tr>
+                <td>インフィールドフライ</td>
+                <td>infield fly</td>
+                <td>ノーアウト、もしくは1アウトでランナーが1,2塁または満塁の時にバッターが内野フライを打ち上げたときに宣告されるルール。宣告された時点でバッターはアウトとなる。わざと落球してダブルプレーを取られることを防ぐためにある。</td>
+            </tr>
+            
+            
+            <!--ここまで-->
+        </tbody>
+    </table>
+</div>
+
+<div id="batterTerms" class="tabcontent">
+    <input type="text" id="searchInputBatter" onkeyup="filterTable('batterTable', 'searchInputBatter')" placeholder="検索する用語を入力">
+    <table id="batterTable">
+    <thead>
+        <tr>
+            <th >用語</th>
+            <th>略称、英訳</th>
+            <th >解説</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><ruby>打率<rt>だりつ</rt></ruby></td>
+        <td>Avg,Av(Average)など</td>
+        <td>「安打数÷打数」で算出されるもの。一般的に3割を超えると優秀な打者とされやすい。</td>
+    </tr>
+    <tr>
+        <td><ruby>出塁率<rt>しゅつるいりつ</rt></ruby></td>
+        <td>OBP(On-base percentage)</td>
+        <td>「(安打+四球+死球)÷(打数+四球+死球+犠飛)」で計算されるもの。「打者がその打席でアウトにならない確率」という解釈が良い。</td>
+    </tr>
+    <tr>
+        <td><ruby>塁打<rt>るいだ</rt></ruby></td>
+        <td>TB(Total Bases)</td>
+        <td>単打、二塁打、三塁打、本塁打それぞれ1,2,3,4として計算され、その合計値の事。</td>
+        
+    </tr>
+    <tr>
+        <td><ruby>長打率<rt>ちょうだりつ</rt></ruby></td>
+        <td>SLG(Slugging percentage)</td>
+        <td>「塁打÷打数」で計算されるもの。1打数あたりで平均どのくらいの塁打を稼いだかを表す。</td>
+    </tr>
+    <tr>
+        <td><ruby>得点<rt>とくてん</rt></ruby></td>
+        <td>R(Run)</td>
+        <td>その選手がホームベースを踏み、チームに得点が与えられる時に増えるもの。</td>
+    </tr>
+    <tr>
+        <td><ruby>打点<rt>だてん</rt></ruby></td>
+        <td>RBI(Run batted in)</td>
+        <td>その選手が打撃によって自チームへ得点をもたらしたときに増えるもの。安打,四死球,犠打が該当する。例外として、併殺打(ゲッツー)間に記録された得点では打点に加算されない。</td>
+    </tr>
+    <tr>
+        <td><ruby>盗塁<rt>とうるい</rt></ruby></td>
+        <td>SB(Stolen Base)</td>
+        <td>投手がバッターに投げた際に先の塁を狙い走ること。セーフになれば盗塁が記録され、アウトになると盗塁死が記録される。</td>
+    </tr>
+    <tr>
+        <td><ruby>犠打<rt>ぎだ</rt></ruby>,<ruby>送りバント<rt>おくりばんと</rt></ruby></td>
+        <td>SH(Sacrifice hit)</td>
+        <td>塁にランナーがいるときに自身がアウトになってランナーを進める打撃の事。</td>
+    </tr>
+    <tr>
+        <td><ruby>犠飛<rt>ぎひ</rt></ruby>,<ruby>犠牲フライ<rt>ぎせいふらい</rt></ruby></td>
+        <td>SF(Sacrifice Fly)</td>
+        <td>犠打とは別でカウントされる。フライ,もしくはライナーを相手の外野手が捕球した後、ランナーがホームに帰り得点が入ったときに記録されるもの。そのため、「フライ、ライナー捕球後に2塁から3塁への進塁」などは犠飛として記録されない。</td>
+    </tr>
+    <tr>
+        <td><ruby>併殺打<rt>へいさつだ</rt></ruby></td>
+        <td>GIDP(Grounded Into Double Play)</td>
+        <td>一つのプレーでフォースアウトにより2つのアウトを取ること。「ゲッツー」「ダブルプレー」とも呼ばれる。</td>
+    </tr>
+    <tr>
+        <td>スリーバント</td>
+        <td>bunt with two strike </td>
+        <td>2ストライク後に行うバントのこと。このバントがファールボールになるとバッターはアウトになり、三振が記録される。</td>
+    </tr>
+    <tr>
+        <td>タイムリーヒット</td>
+        <td>clutch hit,RBI hit</td>
+        <td>得点を伴うヒットのこと。1点ならタイムリーヒット、2点か3点だと得点に応じた「〇点タイムリー」などと表現される。</td>
+    </tr>
+
+    <tr>
+        <td>OPS</td>
+        <td>On-base Plus Slugging </td>
+        <td>出塁率+長打率。打席あたりでの貢献値を表し、近年では打率よりも重要視されつつある。.700~.750あたりが平均を上回り、.800以上が優秀、.9を超えてくるとリーグを代表する打者レベル。</td>
+    </tr>
+    <tr>
+        <td>K%</td>
+        <td></td>
+        <td>打席のうち三振が占める割合</td>
+    </tr>
+    <tr>
+        <td>ISO</td>
+        <td></td>
+        <td>「長打率-打率」で算出する。バッターの長打力を表す。</td>
+    </tr>
+    <tr>
+        <td>BB%</td>
+        <td></td>
+        <td>打席のうち四球が占める割合</td>
+    </tr>
+    <tr>
+        <td>BABIP</td>
+        <td>Batting Average on Balls In Play</td>
+        <td>「(安打-本塁打)÷(打数-三振-本塁打+犠飛)」で算出する数値。HR、ファールを除いた打球のうち、安打となった割合を表す。どの選手も試行回数を重ねるとリーグの平均値に収束していくとされている。</td>
+    </tr>
+    <tr>
+        <td>Spd</td>
+        <td></td>
+        <td>足の速さを表す指標。平均は5前後、盗塁成功率、盗塁の企画などをポイント化して評価する。</td>
+    </tr>
+</tbody>
+</table>
+</div>
+
+<div id="commonTerms" class="tabcontent">
+    <input type="text" id="searchInputCommon" onkeyup="filterTable('commonTable', 'searchInputCommon')" placeholder="検索する用語を入力">
+    <table id="commonTable">
+        <thead>
+            <tr>
+                <th>用語</th>
+                <th>略称、英訳</th>
+                <th>解説</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>フォースプレー</td>
+                <td>Force play</td>
+                <td>前の塁に自分以外のランナーがいる際、自身は次の塁を狙わなければならない。そのような強制的に進塁が必要な場合にて、進塁先の塁を守備側がボールを持った状態で踏むことで自動的にランナーがアウトになるプレーのこと。
+                </td>
+            </tr>
+            <tr>
+                <td>クロスプレー</td>
+                <td>bang-bang play,close play</td>
+                <td>アウトかセーフかを判断しづらいプレー。一般的には野手とランナーが接触しそうになるプレーを指す。
+                </td>
+            </tr>
+            <tr>
+                <td>エンタイトルツーベース</td>
+                <td>Ground rule double</td>
+                <td>フェアゾーンへ転がった打球がバウンドするなどして観客席に入った場合に宣告されるもの。打者、ランナーはそれぞれ2つ進塁することができる。</td>
+            </tr>
+            <tr>
+                <td>サヨナラ</td>
+                <td>Walk-Off</td>
+                <td>後攻チームが最終回に勝ち越すケースを指す。勝ち越した時点でそのチームの勝利は決まっており、その後攻撃する必要がない。そのためサヨナラゲームとなり、ゲームセットとなる。</td>
+            </tr>
+            <tr>
+                <td>フィルダースチョイス</td>
+                <td>fielder's choice</td>
+                <td>「野選」と日本語では表記される。ランナーがいる状態で放たれた打球を処理するときにランナーをアウトにしようとしてアウトにできず、結果として1つもアウトを取れなかったときなどに記録される。</td>
+            </tr>
+            <tr>
+                <td>インフィールドフライ</td>
+                <td>infield fly</td>
+                <td>ノーアウト、もしくは1アウトでランナーが1,2塁または満塁の時にバッターが内野フライを打ち上げたときに宣告されるルール。宣告された時点でバッターはアウトとなる。わざと落球してダブルプレーを取られることを防ぐためにある。</td>
+            </tr>
+            <tr>
+                <td>タッチアップ</td>
+                <td>tag up</td>
+                <td>バッターがフライを打ち上げたとき、ランナーが帰塁(元いた塁へ戻る)し、野手がそのフライに触れた瞬間から次の塁へ進むことができること。</td>
+            </tr>
+            <tr>
+                <td>コリジョンルール</td>
+                <td>collision rule</td>
+                <td>かつてはランナーが本塁を狙うとき、アウトのタイミングでもセーフになるためにキャッチャーへタックルするなどして落球をさせようとする過激なプレーがあった。それによる負傷を避けるために制定されたルールである。
+                    また、セーフのタイミングであってもボールを持っていないキャッチャーがホームベースを完全にふさぐ行為(ブロックという)によってアウトにされてしまうケースをなくす目的でもある。
+                </td>
+            </tr>
+            <tr>
+                <td>スコアリングポジション</td>
+                <td>scoring position</td>
+                <td>「得点圏」と呼ばれ、ランナーが2塁、または3塁にいることを表す。ヒット1本でランナーが本塁へ帰ってこれる可能性が高いことからこう呼ばれる。</td>
+            </tr>
+            <!--後で消す-->
+            <tr>
+                <td>セットポジション</td>
+                <td>set position</td>
+                <td>ピッチャーが軸足(右投手なら右足、左なら左足)をプレートに付けて静止してから投げる姿勢の事。これに対して体がバッターに対して正面を向く姿勢から投球することを「ワインドアップ」という。</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+<script src="wordscript.js"></script>
+</body>
+</html>

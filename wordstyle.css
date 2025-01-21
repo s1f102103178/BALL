@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tab {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab button {
+    background-color: #1F5A7A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #4CAF50;
+}
+
+.tab button.active {
+    background-color: #555;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #1F5A7A;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #E3E5E6;
+}
+
+td:nth-child(2) {
+    background-color: #CCE5FF;
+}
+
+#searchInput {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+th:first-child, td:first-child {
+    width: 15%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 15%; 
+}
+
+th:last-child, td:last-child {
+    width: 70%; 
+}
+
+/* ヘッダー */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

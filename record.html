@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>選手記録ランキング</title>
+    <link rel="stylesheet" href="record.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>BALL</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">トップページ</a></li>
+                <li><a href="Team/teams.html">選手一覧</a></li>
+                <li><a href="gpc.html">名球会入り選手</a></li>
+                <li><a href="record.html">歴代の記録</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<h1>選手記録ランキングTop10</h1>
+
+<div class="tab">
+    <button class="tablinks" onclick="openMainTab(event, 'pitcherRecords')">投手記録</button>
+    <button class="tablinks" onclick="openMainTab(event, 'batterRecords')">野手記録</button>
+</div>
+
+<!-- 投手記録タブ -->
+<div id="pitcherRecords" class="mainTabContent">
+    <div class="subTab">
+        <button class="subTablinks" onclick="openSubTab(event, 'pitcherSeason')">シーズン</button>
+        <button class="subTablinks" onclick="openSubTab(event, 'pitcherCareer')">通算</button>
+    </div>
+
+    <!-- シーズン記録 -->
+    <div id="pitcherSeason" class="subTabContent">
+        <div class="subSubTab">
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonWins')">勝利数</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonLosses')">敗戦数</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonERA')">防御率</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">登板数</button>
+            <!--以下はダミー-->
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">完投</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">完封</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">セーブ</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">ホールド</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">HP</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">勝率</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">投球回</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">奪三振</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">ボーク</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">失点</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">与四球</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">与死球</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">与四球</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherSeasonNoP')">被本塁打</button>
+        </div>
+        <div id="pitcherSeasonWins" class="subSubTabContent">
+            <h2>投手 シーズン 勝利数ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>チーム</th><th>選手名</th><th>勝利数</th><th>年度</th></tr>
+                <tr><td>1</td><td>東京巨人軍</td><td>スタルヒン</td><td>42</td><td>1939</td></tr>
+                <tr><td>1</td><td>西鉄ライオンズ</td><td>稲尾 和久</td><td>42</td><td>1961</td></tr>
+                <tr><td>3</td><td>大洋軍</td><td>野口 二郎</td><td>40</td><td>1942</td></tr>
+                <tr><td>4</td><td>松竹ロビンス</td><td>真田 重男</td><td>39</td><td>1950</td></tr>
+                <tr><td>5</td><td>東京巨人軍</td><td>須田 博(スタルヒン)</td><td>38</td><td>1940</td></tr>
+                <tr><td>5</td><td>南海ホークス</td><td>杉浦 忠</td><td>38</td><td>1959</td></tr>
+                <tr><td>7</td><td>東京巨人軍</td><td>稲尾 和久</td><td>35</td><td>1957</td></tr>
+                <tr><td>7</td><td>中日ドラゴンズ</td><td>権藤 博</td><td>35</td><td>1961</td></tr>
+                <tr><td>9</td><td>東京巨人軍</td><td>藤本 英雄</td><td>34</td><td>1943</td></tr>
+                <tr><td>10</td><td>東京セネタース</td><td>野口 二郎</td><td>33</td><td>1939</td></tr>
+                <tr><td>10</td><td>翼軍</td><td>野口 二郎</td><td>33</td><td>1940</td></tr>
+                <tr><td>10</td><td>東京読売巨人軍</td><td>別所 毅彦</td><td>33</td><td>1952</td></tr>
+                <tr><td>10</td><td>西鉄ライオンズ</td><td>稲尾 和久</td><td>33</td><td>1958</td></tr>
+                <tr><td>10</td><td>毎日大映オリオンズ</td><td>小野 正一</td><td>33</td><td>1960</td></tr>
+            </table>
+        </div>
+        <div id="pitcherSeasonLosses" class="subSubTabContent">
+            <h2>投手 シーズン 敗戦数ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>チーム</th><th>選手名</th><th>敗戦数</th><th>年度</th></tr>
+                <tr><td>1</td><td>名古屋金鯱軍</td><td>中山 正嘉</td><td>29</td><td>1940</td></tr>
+                <tr><td>2</td><td>朝日軍</td><td>福士 勇</td><td>28</td><td>1961</td></tr>
+                <tr><td>3</td><td>イーグルス</td><td>亀田 忠</td><td>27</td><td>1942</td></tr>
+                <tr><td>3</td><td>イーグルス</td><td>望月 潤一</td><td>27</td><td>1950</td></tr>
+                <tr><td>3</td><td>ライオン軍</td><td>菊矢 吉男</td><td>27</td><td>1940</td></tr>
+                <tr><td>3</td><td>広島カープ</td><td>長谷川 良平</td><td>27</td><td>1959</td></tr>
+                <tr><td>3</td><td>松竹ロビンス</td><td> 小林 恒夫</td><td>27</td><td>1957</td></tr>
+                <tr><td>3</td><td>大洋ホエールズ</td><td>秋山 登</td><td>27</td><td>1961</td></tr>
+                <tr><td>9</td><td>大和軍</td><td>石原 繁三</td><td>26</td><td>1943</td></tr>
+                <tr><td>9</td><td>パシフィック</td><td>真田　重蔵</td><td>26</td><td>1939</td></tr>
+                <tr><td>9</td><td>国鉄スワローズ</td><td>井上 佳明</td><td>26</td><td>1940</td></tr>
+            </table>
+        </div>
+        <div id="pitcherSeasonERA" class="subSubTabContent">
+            <h2>投手 シーズン 防御率ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>チーム</th><th>選手名</th><th>防御率</th><th>年度</th></tr>
+                <tr><td>1</td><td>東京巨人軍</td><td>藤本 英雄</td><td>0.73</td><td>1943</td></tr>
+                <tr><td>2</td><td>大阪タイガース</td><td>景浦 将</td><td>0.79</td><td>1936秋</td></tr>
+                <tr><td>3</td><td>東京巨人軍</td><td>沢村 栄治</td><td>0.81</td><td>1937春</td></tr>
+                <tr><td>4</td><td>大洋軍</td><td>野口 二郎</td><td>0.88</td><td>1941</td></tr>
+                <tr><td>5</td><td>朝日軍</td><td>林 安夫</td><td>0.887</td><td>1943</td></tr>
+                <tr><td>6</td><td>阪急軍</td><td>森 弘太郎</td><td>0.889</td><td>1941</td></tr>
+                <tr><td>7</td><td>翼軍</td><td>野口 二郎</td><td>0.93</td><td>1940</td></tr>
+                <tr><td>8</td><td>大阪タイガース</td><td>景浦 将</td><td>0.931</td><td>1937春</td></tr>
+                <tr><td>9</td><td>東京巨人軍</td><td>須田 博(スタルヒン)</td><td>0.97</td><td>1940</td></tr>
+                <tr><td>10</td><td>阪神タイガース</td><td>村山 実</td><td>0.98</td><td>1970</td></tr>
+            </table>
+        </div>
+        <div id="pitcherSeasonNoP" class="subSubTabContent">
+            <h2>投手 シーズン 登板数ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>チーム</th><th>選手名</th><th>登板数</th><th>年度</th></tr>
+                <tr><td>1</td><td>阪神タイガース</td><td>久保田 智之</td><td>90</td><td>2007</td></tr>
+                <tr><td>2</td><td>埼玉西武ライオンズ</td><td>平井 克典</td><td>81</td><td>2019</td></tr>
+                <tr><td>3</td><td>阪神タイガース</td><td>藤川 球児</td><td>80</td><td>2005</td></tr>
+                <tr><td>4</td><td>読売巨人軍</td><td>久保 裕也</td><td>79</td><td>2010</td></tr>
+                <tr><td>5</td><td>中日ドラゴンズ</td><td>浅尾 拓也</td><td>79</td><td>2011</td></tr>
+                <tr><td>6</td><td>西鉄ライオンズ</td><td>稲生 和久</td><td>78</td><td>1961</td></tr>
+                <tr><td>6</td><td>広島東洋カープ</td><td>菊地原 毅</td><td>78</td><td>2001</td></tr>
+                <tr><td>8</td><td>阪神タイガース</td><td>福間 納</td><td>77</td><td>1984</td></tr>
+                <tr><td>9</td><td>横浜ベイスターズ</td><td>木塚 敦志</td><td>76</td><td>2007</td></tr>
+                <tr><td>9</td><td>広島東洋カープ</td><td>青木 高広</td><td>76</td><td>2011</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- 通算記録 -->
+    <div id="pitcherCareer" class="subTabContent">
+        <div class="subSubTab">
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherCareerWins')">勝利数</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherCareerLosses')">敗戦数</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherCareerERA')">防御率</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'pitcherCareerNoP')">防御率</button>
+        </div>
+        <div id="pitcherCareerWins" class="subSubTabContent">
+            <h2>投手 通算 勝利数ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>選手名</th><th>勝利数</th><th>実働</th></tr>
+                <tr><td>1</td><td>金田 正一</td><td>400</td><td>1950-1969</td></tr>
+                <tr><td>2</td><td>米田 哲也</td><td>350</td><td>1956-1977</td></tr>
+                <tr><td>3</td><td>小山 正明</td><td>320</td><td>1953-1973</td></tr>
+                <tr><td>4</td><td>鈴木 啓示</td><td>317</td><td>1966-1985</td></tr>
+                <tr><td>5</td><td>別所 毅彦</td><td>310</td><td>1942-1960</td></tr>
+                <tr><td>6</td><td>スタルヒン</td><td>303</td><td>1936-1955</td></tr>
+                <tr><td>7</td><td>山田 久志</td><td>284</td><td>1969-1988</td></tr>
+                <tr><td>8</td><td>稲尾 和久</td><td>276</td><td>1956-1969</td></tr>
+                <tr><td>9</td><td>梶本 隆夫</td><td>254</td><td>1954-1973</td></tr>
+                <tr><td>10</td><td>東尾 修</td><td>251</td><td>1969-1988</td></tr>
+            </table>
+        </div>
+        <div id="pitcherCareerLosses" class="subSubTabContent">
+            <h2>投手 通算 敗戦数ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>選手名</th><th>敗戦数</th><th>実働</th></tr>
+                <tr><td>1</td><td>金田 正一</td><td>298</td><td>1950-1969</td></tr>
+                <tr><td>2</td><td>米田 哲也</td><td>285</td><td>1956-1977</td></tr>
+                <tr><td>3</td><td>梶本　隆夫</td><td>255</td><td>1954-1973</td></tr>
+                <tr><td>4</td><td>東尾 修</td><td>247</td><td>1969-1988</td></tr>
+                <tr><td>5</td><td>鈴木 啓示</td><td>238</td><td>1966-1985</td></tr>
+                <tr><td>6</td><td>小山 正明</td><td>232</td><td>1953-1973</td></tr>
+                <tr><td>7</td><td>長谷川 良平</td><td>208</td><td>1950-1963</td></tr>
+                <tr><td>8</td><td>平松 政次</td><td>196</td><td>1967-1984</td></tr>
+                <tr><td>9</td><td>松岡 弘</td><td>190</td><td>1968-1985</td></tr>
+                <tr><td>10</td><td>石川 雅規</td><td>189</td><td>2002-2024</td></tr>
+            </table>
+        </div>
+        <div id="pitcherCareerERA" class="subSubTabContent">
+            <h2>投手 通算 防御率ランキング(2000投球回以上)</h2>
+            <table>
+                <tr><th>順位</th><th>選手名</th><th>防御率</th><th>実働</th></tr>
+                <tr><td>1</td><td>藤本 英雄</td><td>1.90</td><td>1942-1955</td></tr>
+                <tr><td>2</td><td>野口 二郎</td><td>1.96</td><td>1939-1952</td></tr>
+                <tr><td>3</td><td>稲尾 和久</td><td>1.98</td><td>1956-1969</td></tr>
+                <tr><td>4</td><td>若林 忠志</td><td>1.99</td><td>1936-1953</td></tr>
+                <tr><td>5</td><td>スタルヒン</td><td>2.088</td><td>1936-1955</td></tr>
+                <tr><td>6</td><td>村山 実</td><td>2.092</td><td>1959-1972</td></tr>
+                <tr><td>7</td><td>別所 毅彦</td><td>2.18</td><td>1942-1960</td></tr>
+                <tr><td>8</td><td>荒巻 淳</td><td>2.23</td><td>1950-1962</td></tr>
+                <tr><td>9</td><td>杉下 茂</td><td>2.232</td><td>1949-1961</td></tr>
+                <tr><td>10</td><td>金田 正一</td><td>2.34</td><td>1950-1969</td></tr>
+            </table>
+        </div>
+        <div id="pitcherCareerNoP" class="subSubTabContent">
+            <h2>投手 通算 登板数ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>選手名</th><th>登板数</th><th>実働</th></tr>
+                <tr><td>1</td><td>岩瀬 仁紀</td><td>1002</td><td>1999-2018</td></tr>
+                <tr><td>2</td><td>米田 哲也</td><td>949</td><td>1956-1977</td></tr>
+                <tr><td>3</td><td>金田 正一</td><td>944</td><td>1950-1969</td></tr>
+                <tr><td>4</td><td>宮西 尚生</td><td>869</td><td>2008-2024</td></tr>
+                <tr><td>5</td><td>梶本 隆夫</td><td>867</td><td>1954-1973</td></tr>
+                <tr><td>6</td><td>小山 正明</td><td>856</td><td>1953-1973</td></tr>
+                <tr><td>7</td><td>江夏 豊</td><td>829</td><td>1967-1984</td></tr>
+                <tr><td>8</td><td>五十嵐 亮太</td><td>823</td><td>1999-2020</td></tr>
+                <tr><td>9</td><td>藤川 球児</td><td>782</td><td>2000-2020</td></tr>
+                <tr><td>10</td><td>皆川 睦雄</td><td>759</td><td>1954-1971</td></tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- 野手記録タブ -->
+<div id="batterRecords" class="mainTabContent">
+    <div class="subTab">
+        <button class="subTablinks" onclick="openSubTab(event, 'batterSeason')">シーズン</button>
+        <button class="subTablinks" onclick="openSubTab(event, 'batterCareer')">通算</button>
+    </div>
+
+    <!-- シーズン記録 -->
+    <div id="batterSeason" class="subTabContent">
+        <div class="subSubTab">
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'batterSeasonAverage')">打率</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'batterSeasonHits')">安打</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'batterSeasonHomeRuns')">本塁打</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'batterSeasonRBIs')">打点</button>
+        </div>
+        <div id="batterSeasonAverage" class="subSubTabContent">
+            <h2>野手 シーズン 打率ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>チーム</th><th>選手名</th><th>打率</th><th>年度</th></tr>
+                <tr><td>1</td><td>阪神タイガース</td><td>バース</td><td>.389</td><td>1986</td></tr>
+                <tr><td>2</td><td>オリックス・ブルーウェーブ</td><td>イチロー</td><td>.387</td><td>2000</td></tr>
+                <tr><td>3</td><td>オリックス・ブルーウェーブ</td><td>イチロー</td><td>.389</td><td>1994</td></tr>
+                <tr><td>4</td><td>東映フライヤーズ</td><td>張本 勲</td><td>.3834</td><td>1970</td></tr>
+                <tr><td>5</td><td>東急フライヤーズ</td><td>大下 弘</td><td>.3831</td><td>1951</td></tr>
+                <tr><td>6</td><td>読売巨人軍</td><td>クロマティ</td><td>.3781</td><td>1989</td></tr>
+                <tr><td>7</td><td>横浜ベイスターズ</td><td>内川 聖一</td><td>.3780</td><td>2008</td></tr>
+                <tr><td>8</td><td>読売巨人軍</td><td>川上 哲治</td><td>.377</td><td>1951</td></tr>
+                <tr><td>9</td><td>名古屋軍</td><td>中根 之</td><td>.376</td><td>1936秋</td></tr>
+                <tr><td>10</td><td>近鉄バファローズ</td><td>ブルーム</td><td>.374</td><td>1962</td></tr>
+            </table>
+        </div>
+        <div id="batterSeasonHits" class="subSubTabContent">
+            <h2>野手 シーズン　安打ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>チーム</th><th>選手名</th><th>安打数</th><th>年度</th></tr>
+                <tr><td>1</td><td>埼玉西武ライオンズ</td><td>秋山 翔吾</td><td>216</td><td>2015</td></tr>
+                <tr><td>2</td><td>阪神タイガース</td><td>マートン</td><td>214</td><td>2010</td></tr>
+                <tr><td>3</td><td>オリックス・ブルーウェーブ</td><td>イチロー</td><td>210</td><td>1994</td></tr>
+                <tr><td>4</td><td>東京ヤクルトスワローズ</td><td>青木 宣親</td><td>209</td><td>2010</td></tr>
+                <tr><td>5</td><td>千葉ロッテマリーンズ</td><td>西岡 剛</td><td>206</td><td>2010</td></tr>
+                <tr><td>6</td><td>東京ヤクルトスワローズ</td><td>ラミレス</td><td>204</td><td>2007</td></tr>
+                <tr><td>7</td><td>ヤクルトスワローズ</td><td>青木 宣親</td><td>202</td><td>2005</td></tr>
+                <tr><td>8</td><td>福岡ソフトバンクホークス</td><td>長谷川 勇也</td><td>198</td><td>2013</td></tr>
+                <tr><td>9</td><td>日本ハムファイターズ</td><td>小笠原 道大</td><td>195</td><td>2001</td></tr>
+                <tr><td>9</td><td>東京ヤクルトスワローズ</td><td>川端 慎吾</td><td>195</td><td>2015</td></tr>
+                <tr><td>9</td><td>埼玉西武ライオンズ</td><td>秋山 翔吾</td><td>195</td><td>2018</td></tr>
+            </table>
+        </div>
+        <div id="batterSeasonHomeRuns" class="subSubTabContent">
+            <h2>野手 シーズン 本塁打ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>チーム</th><th>選手名</th><th>HR数</th><th>年度</th></tr>
+                <tr><td>1</td><td>東京ヤクルトスワローズ</td><td>バレンティン</td><td>60</td><td>2013</td></tr>
+                <tr><td>2</td><td>東京ヤクルトスワローズ</td><td>村上 宗隆</td><td>56</td><td>2022</td></tr>
+                <tr><td>3</td><td>読売巨人軍</td><td>王 貞治</td><td>55</td><td>1964</td></tr>
+                <tr><td>3</td><td>西武ライオンズ</td><td>カブレラ</td><td>55</td><td>2002</td></tr>
+                <tr><td>3</td><td>近鉄バファローズ</td><td>ローズ</td><td>55</td><td>2001</td></tr>
+                <tr><td>6</td><td>阪神タイガース</td><td>バース</td><td>54</td><td>1985</td></tr>
+                <tr><td>7</td><td>南海ホークス</td><td>野村 克也</td><td>52</td><td>1963</td></tr>
+                <tr><td>7</td><td>ロッテオリオンズ</td><td>落合 博満</td><td>52</td><td>1985</td></tr>
+                <tr><td>9</td><td>松竹ロビンス</td><td>小鶴 誠</td><td>51</td><td>1950</td></tr>
+                <tr><td>9</td><td>読売巨人軍</td><td>王 貞治</td><td>51</td><td>1973</td></tr>
+                <tr><td>9</td><td>近鉄バファローズ</td><td>ローズ</td><td>51</td><td>2003</td></tr>
+            </table>
+        </div>
+        <div id="batterSeasonRBIs" class="subSubTabContent">
+            <h2>野手 シーズン 打点ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>チーム</th><th>選手名</th><th>HR数</th><th>年度</th></tr>
+                <tr><td>1</td><td>松竹ロビンス</td><td>小鶴 誠</td><td>161</td><td>1950</td></tr>
+                <tr><td>2</td><td>横浜ベイスターズ</td><td>R.ローズ</td><td>153</td><td>1999</td></tr>
+                <tr><td>3</td><td>阪神タイガース</td><td>今岡 誠</td><td>147</td><td>2005</td></tr>
+                <tr><td>4</td><td>阪神タイガース</td><td>藤村 富美男</td><td>146</td><td>1950</td></tr>
+                <tr><td>4</td><td>ロッテオリオンズ</td><td>落合 博満</td><td>146</td><td>1985</td></tr>
+                <tr><td>6</td><td>中日ドラゴンズ</td><td>T.ウッズ</td><td>144</td><td>2006</td></tr>
+                <tr><td>7</td><td>阪神タイガース</td><td>藤村 富美男</td><td>142</td><td>1949</td></tr>
+                <tr><td>8</td><td>横浜DeNAベイスターズ</td><td>T.ブランコ</td><td>136</td><td>2013</td></tr>
+                <tr><td>9</td><td>中日ドラゴンズ</td><td>西沢 道夫</td><td>135</td><td>1950</td></tr>
+                <tr><td>9</td><td>南海ホークス</td><td>野村 克也</td><td>135</td><td>1963</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- 通算記録 -->
+    <div id="batterCareer" class="subTabContent">
+        <div class="subSubTab">
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'batterCareerAverage')">打率</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'batterCareerHits')">安打</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'batterCareerHomeRuns')">本塁打</button>
+            <button class="subSubTablinks" onclick="openSubSubTab(event, 'batterCareerRBIs')">打点</button>
+        </div>
+        <div id="batterCareerAverage" class="subSubTabContent">
+            <h2>野手 通算 打率ランキング(4000打席以上)</h2>
+            <table>
+                <tr><th>順位</th><th>選手名</th><th>打率</th><th>実働</th></tr>
+                <tr><td>1</td><td>レロン・リー</td><td>3085</td><td>1977-1987</td></tr>
+                <tr><td>2</td><td>若松 勉</td><td>2901</td><td>1971-1989</td></tr>
+                <tr><td>3</td><td>張本 勲</td><td>2786</td><td>1959-1981</td></tr>
+                <tr><td>4</td><td>ブーマー</td><td>2566</td><td>1983-1992</td></tr>
+                <tr><td>5</td><td>川上 哲治</td><td>2543</td><td>1938-1958</td></tr>
+                <tr><td>5</td><td>青木 宣親</td><td>2543</td><td>2004-2011,2018-2024</td></tr>
+                <tr><td>7</td><td>柳田 悠岐</td><td>2539</td><td>2010-2024</td></tr>
+                <tr><td>8</td><td>与那嶺 要</td><td>2480</td><td>1951-1962</td></tr>
+                <tr><td>9</td><td>落合 博満</td><td>2471</td><td>1979-1998</td></tr>
+                <tr><td>10</td><td>小笠原 道大</td><td>2452</td><td>1997-2015</td></tr>
+            </table>
+        </div>
+        <div id="batterCareerHits" class="subSubTabContent">
+            <h2>野手 通算 安打ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>選手名</th><th>安打</th><th>実働</th></tr>
+                <tr><td>1</td><td>張本 勲</td><td>3085</td><td>1959-1981</td></tr>
+                <tr><td>2</td><td>野村 克也</td><td>2901</td><td>1954-1980</td></tr>
+                <tr><td>3</td><td>王 貞治</td><td>2786</td><td>1959-1980</td></tr>
+                <tr><td>4</td><td>門田 博光</td><td>2566</td><td>1970-1992</td></tr>
+                <tr><td>5</td><td>衣笠 祥雄</td><td>2543</td><td>1965-1987</td></tr>
+                <tr><td>5</td><td>福本 豊</td><td>2543</td><td>1969-1988</td></tr>
+                <tr><td>7</td><td>金本 知憲</td><td>2539</td><td>1992-2012</td></tr>
+                <tr><td>8</td><td>立浪 和義</td><td>2480</td><td>1988-2009</td></tr>
+                <tr><td>9</td><td>長嶋 茂雄</td><td>2471</td><td>1958-1974</td></tr>
+                <tr><td>10</td><td>土井 正博</td><td>2452</td><td>1962-1981</td></tr>
+            </table>
+        </div>
+        <div id="batterCareerHomeRuns" class="subSubTabContent">
+            <h2>野手 通算 本塁打ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>選手名</th><th>HR数</th><th>実働</th></tr>
+                <tr><td>1</td><td>王 貞治</td><td>868</td><td>1959-1980</td></tr>
+                <tr><td>2</td><td>野村 克也</td><td>657</td><td>1954-1980</td></tr>
+                <tr><td>3</td><td>門田 博光</td><td>567</td><td>1970-1992</td></tr>
+                <tr><td>4</td><td>山本 浩二</td><td>536</td><td>1969-1986</td></tr>
+                <tr><td>5</td><td>清原 和博</td><td>525</td><td>1986-2008</td></tr>
+                <tr><td>5</td><td>落合 博満</td><td>510</td><td>1979-1998</td></tr>
+                <tr><td>7</td><td>張本 勲</td><td>504</td><td>1959-1981</td></tr>
+                <tr><td>7</td><td>衣笠 祥雄</td><td>504</td><td>1965-1987</td></tr>
+                <tr><td>9</td><td>大杉 勝男</td><td>486</td><td>1965-1983</td></tr>
+                <tr><td>10</td><td>中村 剛也</td><td>478</td><td>2003-2024</td></tr>
+            </table>
+        </div>
+        <div id="batterCareerRBIs" class="subSubTabContent">
+            <h2>野手 通算 打点ランキング</h2>
+            <table>
+                <tr><th>順位</th><th>選手名</th><th>打点</th><th>実働</th></tr>
+                <tr><td>1</td><td>王 貞治</td><td>2170</td><td>1959-1980</td></tr>
+                <tr><td>2</td><td>野村 克也</td><td>1988</td><td>1954-1980</td></tr>
+                <tr><td>3</td><td>門田 博光</td><td>1678</td><td>1970-1992</td></tr>
+                <tr><td>4</td><td>張本 勲</td><td>1676</td><td>1959-1981</td></tr>
+                <tr><td>5</td><td>落合 博満</td><td>1564</td><td>1979-1998</td></tr>
+                <tr><td>6</td><td>清原 和博</td><td>1530</td><td>1986-2008</td></tr>
+                <tr><td>7</td><td>長嶋 茂雄</td><td>1522</td><td>1959-1981</td></tr>
+                <tr><td>8</td><td>金本 知憲</td><td>1521</td><td>1992-2012</td></tr>
+                <tr><td>9</td><td>大杉 勝男</td><td>1507</td><td>1965-1983</td></tr>
+                <tr><td>10</td><td>山本 浩二</td><td>1475</td><td>1969-1986</td></tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="record.js"></script>
+</body>
+</html>
