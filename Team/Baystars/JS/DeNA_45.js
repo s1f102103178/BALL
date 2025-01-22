@@ -610,8 +610,7 @@ const yamadabatStats=[
     '2019': {kper: 25.5, bbper: 7.1, kbb: 18.4, hrper: 1.2, ave: 0.205, der: 0.732, lob: 82.5, ramin: 49, fipmin: 64, xfipmin: 75, ra: 2.11, fip: 2.74, r_f: -0.63, xfip: 3.23, tra: 2.83},
     '2020': {kper: 17.3, bbper: 8.6, kbb: 8.6, hrper: 4.9, ave: 0.343, der: 0.636, lob: 66.9, ramin: 180, fipmin: 139, xfipmin: 96, ra: 7.56, fip: 5.85, r_f: 1.71, xfip: 4.05, tra: 5.15},
     '2021': {kper: 22.7, bbper: 6.1, kbb: 16.7, hrper: 2.3, ave: 0.250, der: 0.714, lob: 82.3, ramin: 73, fipmin: 78, xfipmin: 80, ra: 2.78, fip: 2.97, r_f: -0.19, xfip: 3.02, tra: 3.01},
-    '2022_E': {kper: 27.3, bbper: 9.1, kbb: 18.2, hrper: 0.0, ave: 0.300, der: 0.571, lob: 100.0, ramin: 0, fipmin: 50, xfipmin: 61, ra: 0.00, fip: 1.76, r_f: -1.76, xfip: 2.15, tra: 1.07},
-    '2022_DB': {kper: 33.3, bbper: 0.0, kbb: 33.3, hrper: 8.3, ave: 0.250, der: 0.714, lob: 62.5, ramin: 162, fipmin: 130, xfipmin: 45, ra: 6.00, fip: 4.83, r_f: 1.17, xfip: 3.77, tra: 3.77},
+    '2022': {kper: 33.3, bbper: 0.0, kbb: 33.3, hrper: 8.3, ave: 0.250, der: 0.714, lob: 62.5, ramin: 162, fipmin: 130, xfipmin: 45, ra: 6.00, fip: 4.83, r_f: 1.17, xfip: 3.77, tra: 3.77},
     '2023': {kper: 19.9, bbper: 6.4, kbb: 13.5, hrper: 1.2, ave: 0.222, der: 0.721, lob: 79.2, ramin: 72, fipmin: 85, xfipmin: 102, ra: 2.53, fip: 2.98, r_f: -0.45, xfip: 3.59, tra: 3.32},
     '2024': {kper: 23.9, bbper: 4.9, kbb: 19.0, hrper: 1.2, ave: 0.238, der: 0.686, lob: 78.0, ramin: 84, fipmin: 69, xfipmin: 71, ra: 2.72, fip: 2.22, r_f: 0.50, xfip: 2.29, tra: 2.49}
 }
