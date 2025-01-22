@@ -425,19 +425,13 @@ const yamadabatStats=[
   ];
   
   window.yamadaStatsData = {
-    '2013': {kper:22.4,bbper:11.4,kbb:11.0,hrper:"--",ave:.260,der:.689,lob:84.4,ramin:79,fipmin:97,xfipmin:"--",ra:3.24,fip:3.95,r_f:-0.71,xfip:"--",tra:"--"},
-    '2014': {kper:16.5,bbper:9.6,kbb:6.9,hrper:3.1,ave:.266,der:.700,lob:72.7,ramin:113,fipmin:117,xfipmin:111,ra:4.86,fip:5.03,r_f:-0.17,xfip:4.78,tra:4.97},
-    '2015': {kper:16.3,bbper:7.9,kbb:8.4,hrper:1.5,ave:.278,der:.669,lob:72.9,ramin:111,fipmin:99,xfipmin:110,ra:4.04,fip:3.60,r_f:0.44,xfip:3.98,tra:3.66},
-    '2016': {kper:14.1,bbper:1.4,kbb:12.7,hrper:2.8,ave:.329,der:.638,lob:51.9,ramin:181,fipmin:95,xfipmin:89,ra:7.31,fip:3.84,r_f:3.47,xfip:3.60,tra:3.59},
-    '2017': {kper:26.7,bbper:6.0,kbb:20.7,hrper:1.8,ave:.242,der:.672,lob:70.3,ramin:95,fipmin:68,xfipmin:78,ra:3.82,fip:2.74,r_f:1.08,xfip:3.16,tra:2.72},
-    '2018': {kper:20.9,bbper:5.1,kbb:15.9,hrper:2.0,ave:.228,der:.720,lob:85.2,ramin:52,fipmin:78,xfipmin:96,ra:2.32,fip:3.50,r_f:-1.18,xfip:4.32,tra:3.43},
-    '2019': {kper:22.6,bbper:5.8,kbb:16.8,hrper:1.5,ave:.240,der:.698,lob:73.9,ramin:77,fipmin:67,xfipmin:97,ra:3.27,fip:2.87,r_f:0.41,xfip:4.14,tra:3.05},
-    '2020': {kper:31.2,bbper:5.9,kbb:25.3,hrper:1.1,ave:.246,der:.649,lob:85.9,ramin:48,fipmin:49,xfipmin:69,ra:2.01,fip:2.06,r_f:-0.04,xfip:2.91,tra:2.12},
-    '2021': {kper:28.3,bbper:4.4,kbb:23.9,hrper:2.7,ave:.252,der:.658,lob:73.7,ramin:96,fipmin:73,xfipmin:73,ra:3.76,fip:2.88,r_f:0.89,xfip:2.87,tra:3.00},
-    '2022': {kper:23.6,bbper:9.5,kbb:14.2,hrper:0.0,ave:.206,der:.722,lob:83.7,ramin:47,fipmin:64,xfipmin:92,ra:1.75,fip:2.38,r_f:-0.63,xfip:3.39,tra:2.10},
-    '2023': {kper:19.7,bbper:6.3,kbb:13.5,hrper:1.4,ave:.276,der:.655,lob:63.7,ramin:147,fipmin:85,xfipmin:101,ra:5.17,fip:2.97,r_f:2.20,xfip:3.54,tra:3.18},
-    '2024': {kper:20.6,bbper:7.4,kbb:13.2,hrper:1.1,ave:.321,der:.609,lob:73.6,ramin:135,fipmin:79,xfipmin:88,ra:4.35,fip:2.56,r_f:1.80,xfip:2.84,tra:2.76},
-  };
+    '2018':{kper:24.8,bbper:6.7,kbb:18.1,hrper:2.1,ave:.228,der:.698,lob:82.8,ramin:59,fipmin:81,xfipmin:81,ra:2.63,fip:3.42,r_f:-0.79,xfip:3.65,tra:3.34},
+    '2019':{kper:19.3,bbper:6.2,kbb:13.0,hrper:2.5,ave:.255,der:.687,lob:73.7,ramin:94,fipmin:93,xfipmin:93,ra:3.99,fip:3.93,r_f:0.06,xfip:3.98,tra:4.13},
+    '2021':{kper:26.7,bbper:5.3,kbb:21.3,hrper:1.3,ave:.143,der:.780,lob:71.4,ramin:58,fipmin:83,xfipmin:83,ra:2.29,fip:2.48,r_f:-0.19,xfip:3.25,tra:2.64},
+    '2022':{kper:17.9,bbper:4.4,kbb:13.5,hrper:2.2,ave:.322,der:.626,lob:68.1,ramin:144,fipmin:96,xfipmin:96,ra:5.33,fip:3.54,r_f:1.79,xfip:3.57,tra:3.46},
+    '2023':{kper:20.0,bbper:2.3,kbb:17.7,hrper:2.1,ave:.232,der:.719,lob:86.0,ramin:59,fipmin:84,xfipmin:84,ra:2.09,fip:2.81,r_f:-0.72,xfip:2.96,tra:2.94},
+    '2024':{kper:19.2,bbper:3.7,kbb:15.5,hrper:1.5,ave:.243,der:.704,lob:83.9,ramin:69,fipmin:92,xfipmin:92,ra:2.21,fip:2.85,r_f:-0.64,xfip:2.96,tra:3.02},
+};
   
   
   const yamadateamStatsByYear = {
