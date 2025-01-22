@@ -262,8 +262,7 @@ const yamadaStats =[
     '2022': {bbper: 7.0, kper: 14.7, bb_k: 0.48, iso: 0.125, spd: 3.3, babip: 0.183, ubr: 0.2, wsb: 0.2, wrc: 7.7, wraa: -6.3, woba: 0.254, wrcplus: 60},
     '2023': {bbper: 8.7, kper: 11.5, bb_k: 0.76, iso: 0.028, spd: 3.0, babip: 0.258, ubr: -2.3, wsb: -0.1, wrc: 20.6, wraa: -6.4, woba: 0.275, wrcplus: 71},
     '2024': {bbper: 5.5, kper: 18.2, bb_k: 0.30, iso: 0.056, spd: 3.4, babip: 0.297, ubr: 1.1, wsb: 0.2, wrc: 15.6, wraa: -4.8, woba: 0.270, wrcplus: 70}
-}
-;
+};
   
   
   const yamadateamStatsByYear = {

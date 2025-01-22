@@ -57,7 +57,7 @@ const yamadaStats =[
       }
   ];
   window.yamadaStatsData = {
-    '20': {bbper:4.2,kper:16.7,bb_k:0.25,iso:.119,spd:2.3,babip:.235,ubr:0.0,wsb:0.2,wrc:3.3,wraa:-0.9,woba:.273,wrcplus:73},
+    '2024': {bbper:4.2,kper:16.7,bb_k:0.25,iso:.119,spd:2.3,babip:.235,ubr:0.0,wsb:0.2,wrc:3.3,wraa:-0.9,woba:.273,wrcplus:73},
   };
 
   

@@ -117,7 +117,6 @@ const yamadaStats =[
     '2021': {bbper:0.0,kper:20.0,bb_k:0.00,iso:.000,spd:0.1,babip:.250,ubr:"-",wsb:"-",wrc:0.0,wraa:-0.6,woba:.176,wrcplus:-13},
     '2022': {bbper:50.0,kper:50.0,bb_k:1.00,iso:.000,spd:0.1,babip:"-",ubr:-0.1,wsb:"-",wrc:0.2,wraa:0.0,woba:.342,wrcplus:118},
     '2023': {bbper:"-",kper:"-",bb_k:"-",iso:"-",spd:0.1,babip:"-",ubr:"-",wsb:"-",wrc:0.0,wraa:0.0,woba:"-",wrcplus:"-"},
-
   };
   
   

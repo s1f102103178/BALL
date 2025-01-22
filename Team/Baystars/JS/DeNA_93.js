@@ -126,8 +126,7 @@ const yamadabatStats=[
   
 
   window.yamadaStatsData = {
-    '2024':{kper:5.3,bbper:15.8,kbb:-10.5,hrper:0.0,ave:.143,der:.867,lob:100.0,ramin:0,fipmin:142,xfipmin:169,ra:0.00,fip:4.59,r_f:-4.59,xfip:5.47,tra:5.63},
-
+    '2024':{kper:5.3,bbper:15.8,kbb:-10.5,hrper:0.0,ave:.143,der:.867,lob:100.0,ramin:0,fipmin:142,xfipmin:169,ra:0.00,fip:4.59,r_f:-4.59,xfip:5.47,tra:5.63}
 };
   
   

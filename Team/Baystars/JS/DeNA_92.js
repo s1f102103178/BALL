@@ -309,8 +309,7 @@ const yamadabatStats=[
     '2020': {kper: 17.7, bbper: 12.9, kbb: 4.8, hrper: 3.2, ave: 0.302, der: 0.634, lob: 51.9, ramin: 220, fipmin: 134, xfipmin: 123, ra: 9.24, fip: 5.61, r_f: 3.63, xfip: 5.15, tra: 4.99},
     '2023': {kper: 21.1, bbper: 15.8, kbb: 5.3, hrper: 10.5, ave: 0.375, der: 0.600, lob: 64.5, ramin: 384, fipmin: 317, xfipmin: 137, ra: 13.50, fip: 11.15, r_f: 2.35, xfip: 4.83, tra: 11.12},
     '2024': {kper: 25.0, bbper: 4.2, kbb: 20.8, hrper: 0.0, ave: 0.227, der: 0.706, lob: 100.0, ramin: 0, fipmin: 34, xfipmin: 48, ra: 0.00, fip: 1.09, r_f: -1.09, xfip: 1.54, tra: 2.42}
-}
-;
+};
   
   
   const yamadateamStatsByYear = {

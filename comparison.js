@@ -4,6 +4,237 @@
 
 //ベイスターズ
 
+window.hayashi00StatsData = {
+    '2023': {bbper:3.9,kper:18.8,bb_k:0.21,iso:.035,spd:4.5,babip:.254,ubr:0.8,wsb:0.2,wrc:4.6,wraa:-9.9,woba:.218,wrcplus:29},
+    '2024': {bbper:7.0,kper:21.1,bb_k:0.33,iso:.069,spd:6.8,babip:.215,ubr:0.6,wsb:0.1,wrc:3.1,wraa:-6.7,woba:.217,wrcplus:28},
+  };
+
+  window.kuwahara01StatsData = {
+    '2012': {bbper:0.0,kper:33.3,bb_k:0.00,iso:.000,spd:0.1,babip:.500,ubr:"-",wsb:0.0,wrc:0.3,wraa:0.0,woba:.288,wrcplus:92},
+    '2013': {bbper:0.0,kper:50.0,bb_k:0.00,iso:.000,spd:0.1,babip:.000,ubr:"-",wsb:0.0,wrc:-0.9,wraa:-1.5,woba:.000,wrcplus:-131},
+    '2014': {bbper:8.9,kper:18.9,bb_k:0.47,iso:.097,spd:5.4,babip:.324,ubr:1.4,wsb:0.3,wrc:18.8,wraa:0.2,woba:.333,wrcplus:91},
+    '2015': {bbper:4.3,kper:22.4,bb_k:0.19,iso:.087,spd:5.6,babip:.237,ubr:0.1,wsb:-0.2,wrc:4.4,wraa:-6.4,woba:.242,wrcplus:32},
+    '2016': {bbper:7.3,kper:17.8,bb_k:0.41,iso:.130,spd:5.2,babip:.335,ubr:-0.4,wsb:-1.1,wrc:67.2,wraa:13.2,woba:.355,wrcplus:110},
+    '2017': {bbper:6.8,kper:17.5,bb_k:0.39,iso:.145,spd:4.6,babip:.316,ubr:4.1,wsb:-2.4,wrc:80.2,wraa:10.5,woba:.341,wrcplus:102},
+    '2018': {bbper:7.6,kper:16.9,bb_k:0.45,iso:.161,spd:7.2,babip:.301,ubr:1.4,wsb:1.7,wrc:49.0,wraa:1.3,woba:.335,wrcplus:92},
+    '2019': {bbper:7.8,kper:22.6,bb_k:0.35,iso:.108,spd:5.7,babip:.230,ubr:0.4,wsb:0.3,wrc:7.5,wraa:-5.2,woba:.268,wrcplus:53},
+    '2020': {bbper:7.1,kper:26.2,bb_k:0.27,iso:.083,spd:2.6,babip:.160,ubr:0.8,wsb:"-",wrc:0.6,wraa:-4.0,woba:.206,wrcplus:9},
+    '2021': {bbper:7.7,kper:13.1,bb_k:0.59,iso:.164,spd:4.3,babip:.342,ubr:-1.1,wsb:-0.4,wrc:86.1,wraa:27.7,woba:.379,wrcplus:136},
+    '2022': {bbper:7.9,kper:16.8,bb_k:0.47,iso:.097,spd:4.2,babip:.308,ubr:3.6,wsb:-0.5,wrc:52.3,wraa:0.8,woba:.313,wrcplus:92},
+    '2023': {bbper:4.8,kper:11.3,bb_k:0.43,iso:.121,spd:3.8,babip:.270,ubr:0.3,wsb:-2.1,wrc:44.9,wraa:-0.2,woba:.305,wrcplus:93},
+    '2024': {bbper:5.9,kper:13.1,bb_k:0.45,iso:.095,spd:4.1,babip:.298,ubr:3.7,wsb:1.3,wrc:32.2,wraa:4.4,woba:.318,wrcplus:107},
+  };
+
+  window.maki02StatsData = {
+    '2021': {bbper:5.2,kper:16.3,bb_k:0.32,iso:.220,spd:3.4,babip:.343,ubr:2.0,wsb:0.0,wrc:85.7,wraa:32.2,woba:.395,wrcplus:147},
+    '2022': {bbper:7.6,kper:14.4,bb_k:0.52,iso:.216,spd:2.1,babip:.303,ubr:0.1,wsb:-0.5,wrc:86.3,wraa:31.1,woba:.382,wrcplus:144},
+    '2023': {bbper:5.5,kper:14.0,bb_k:0.39,iso:.236,spd:2.9,babip:.299,ubr:2.3,wsb:-0.3,wrc:91.6,wraa:34.6,woba:.384,wrcplus:150},
+    '2024': {bbper:6.6,kper:10.5,bb_k:0.63,iso:.197,spd:4.2,babip:.295,ubr:-1.2,wsb:1.9,wrc:82.3,wraa:33.7,woba:.383,wrcplus:158},
+  };
+
+  window.TA03StatsData = {
+    '2020': {bbper:10.8,kper:25.7,bb_k:0.42,iso:.319,spd:1.6,babip:.320,ubr:-0.3,wsb:"-",wrc:49.3,wraa:19.9,woba:.415,wrcplus:154},
+    '2021': {bbper:13.7,kper:25.3,bb_k:0.54,iso:.298,spd:2.1,babip:.362,ubr:-2.8,wsb:0.2,wrc:85.7,wraa:40.8,woba:.435,wrcplus:177},
+    '2022': {bbper:15.8,kper:36.8,bb_k:0.43,iso:.156,spd:0.8,babip:.235,ubr:-0.1,wsb:"-",wrc:2.5,wraa:-1.2,woba:.268,wrcplus:59},
+    '2023': {bbper:11.1,kper:24.1,bb_k:0.46,iso:.128,spd:1.2,babip:.371,ubr:0.1,wsb:"-",wrc:6.2,wraa:1.2,woba:.335,wrcplus:115},
+    '2024': {bbper:10.1,kper:19.8,bb_k:0.51,iso:.285,spd:2.4,babip:.348,ubr:-0.5,wsb:-0.3,wrc:84.0,wraa:45.5,woba:.441,wrcplus:203}
+  };
+  window.watarai04StatsData = {
+    '2024': {bbper:4.4,kper:15.8,bb_k:0.28,iso:.072,spd:2.5,babip:.296,ubr:-2.8,wsb:-0.3,wrc:23.0,wraa:-0.6,woba:.296,wrcplus:90},
+  };
+  window.matsuo05StatsData = {
+    '2024': {bbper:2.5,kper:20.0,bb_k:0.13,iso:.079,spd:1.4,babip:.267,ubr:0.0,wsb:"-",wrc:1.9,wraa:-1.6,woba:.243,wrcplus:49},
+  };
+
+  window.mori06StatsData = {
+    '2020': {bbper:0.0,kper:8.3,bb_k:0.00,iso:.083,spd:2.6,babip:.273,ubr:0.4,wsb:"-",wrc:0.6,wraa:-0.7,woba:.251,wrcplus:40},
+    '2021': {bbper:6.2,kper:26.5,bb_k:0.23,iso:.078,spd:7.6,babip:.267,ubr:1.8,wsb:0.0,wrc:3.7,wraa:-7.9,woba:.230,wrcplus:28},
+    '2022': {bbper:7.7,kper:25.0,bb_k:0.31,iso:.058,spd:3.2,babip:.309,ubr:2.3,wsb:-0.5,wrc:10.7,wraa:-5.7,woba:.266,wrcplus:58},
+    '2023': {bbper:7.1,kper:7.1,bb_k:1.00,iso:.000,spd:2.6,babip:.182,ubr:"-",wsb:0.2,wrc:0.1,wraa:-1.2,woba:.186,wrcplus:5},
+    '2024': {bbper:6.0,kper:21.5,bb_k:0.28,iso:.075,spd:4.5,babip:.324,ubr:1.5,wsb:-0.6,wrc:16.5,wraa:-0.8,woba:.293,wrcplus:62}
+  };
+
+  window.sano07StatsData = {
+    '2017': {bbper:12.5,kper:20.8,bb_k:0.60,iso:.048,spd:0.8,babip:.125,ubr:0.0,wsb:"-",wrc:-0.1,wraa:-2.7,woba:.177,wrcplus:-10},
+    '2018': {bbper:2.3,kper:20.0,bb_k:0.12,iso:.151,spd:1.2,babip:.250,ubr:-0.4,wsb:0.2,wrc:8.6,wraa:-6.1,woba:.272,wrcplus:51},
+    '2019': {bbper:6.0,kper:18.1,bb_k:0.33,iso:.125,spd:1.1,babip:.346,ubr:-0.7,wsb:"-",wrc:26.8,wraa:3.2,woba:.342,wrcplus:103},
+    '2020': {bbper:9.3,kper:12.9,bb_k:0.72,iso:.204,spd:1.0,babip:.343,ubr:-5.2,wsb:"-",wrc:79.8,wraa:30.5,woba:.407,wrcplus:149},
+    '2021': {bbper:9.9,kper:11.9,bb_k:0.84,iso:.163,spd:1.8,babip:.322,ubr:-2.9,wsb:-0.4,wrc:93.2,wraa:30.3,woba:.380,wrcplus:136},
+    '2022': {bbper:7.5,kper:9.9,bb_k:0.75,iso:.184,spd:2.0,babip:.310,ubr:-0.4,wsb:0.0,wrc:85.5,wraa:29.6,woba:.378,wrcplus:141},
+    '2023': {bbper:7.5,kper:12.6,bb_k:0.60,iso:.123,spd:2.1,babip:.285,ubr:-5.4,wsb:-0.6,wrc:64.9,wraa:7.1,woba:.322,wrcplus:105},
+    '2024': {bbper:6.2,kper:9.4,bb_k:0.66,iso:.111,spd:1.1,babip:.290,ubr:-3.5,wsb:"-",wrc:56.6,wraa:7.6,woba:.318,wrcplus:107}
+  };
+
+  window.kamizato08StatsData = {
+    '2018': {bbper:7.0,kper:24.9,bb_k:0.28,iso:.142,spd:6.7,babip:.328,ubr:4.9,wsb:-0.8,wrc:28.9,wraa:-2.0,woba:.322,wrcplus:83},
+    '2019': {bbper:5.7,kper:26.4,bb_k:0.21,iso:.129,spd:5.6,babip:.377,ubr:4.7,wsb:-1.3,wrc:51.4,wraa:1.1,woba:.327,wrcplus:93},
+    '2020': {bbper:7.9,kper:22.1,bb_k:0.36,iso:.112,spd:6.2,babip:.389,ubr:0.9,wsb:0.9,wrc:26.3,wraa:5.5,woba:.359,wrcplus:115},
+    '2021': {bbper:5.1,kper:41.5,bb_k:0.12,iso:.136,spd:4.4,babip:.293,ubr:0.3,wsb:-0.4,wrc:5.7,wraa:-6.3,woba:.250,wrcplus:42},
+    '2022': {bbper:7.5,kper:24.3,bb_k:0.31,iso:.137,spd:7.5,babip:.250,ubr:-0.5,wsb:0.0,wrc:8.1,wraa:-2.3,woba:.282,wrcplus:69},
+    '2023': {bbper:5.7,kper:30.2,bb_k:0.19,iso:.061,spd:6.1,babip:.242,ubr:-0.1,wsb:-0.3,wrc:1.2,wraa:-3.8,woba:.209,wrcplus:22},
+    '2024': {bbper:4.0,kper:48.0,bb_k:0.08,iso:.000,spd:5.5,babip:.273,ubr:0.6,wsb:0.3,wrc:-0.3,wraa:-2.5,woba:.160,wrcplus:-15}
+  };
+
+  window.tobashira10StatsData = {
+    '2016': {bbper:5.1,kper:16.0,bb_k:0.32,iso:.038,spd:0.9,babip:.267,ubr:-5.1,wsb:"-",wrc:19.2,wraa:-21.5,woba:.252,wrcplus:38},
+    '2017': {bbper:5.2,kper:16.3,bb_k:0.32,iso:.119,spd:0.7,babip:.233,ubr:-1.1,wsb:"-",wrc:22.3,wraa:-15.8,woba:.265,wrcplus:48},
+    '2018': {bbper:3.4,kper:15.3,bb_k:0.22,iso:.089,spd:1.8,babip:.196,ubr:0.2,wsb:"-",wrc:1.0,wraa:-5.7,woba:.210,wrcplus:10},
+    '2019': {bbper:6.3,kper:19.8,bb_k:0.32,iso:.110,spd:3.2,babip:.244,ubr:0.6,wsb:"-",wrc:7.5,wraa:-4.7,woba:.271,wrcplus:55},
+    '2020': {bbper:4.0,kper:19.2,bb_k:0.21,iso:.097,spd:2.3,babip:.248,ubr:-2.3,wsb:-0.7,wrc:14.7,wraa:-15.4,woba:.254,wrcplus:43},
+    '2021': {bbper:3.0,kper:13.3,bb_k:0.22,iso:.126,spd:2.2,babip:.236,ubr:-1.6,wsb:"-",wrc:8.7,wraa:-5.1,woba:.270,wrcplus:56},    
+    '2022': {bbper:2.0,kper:17.2,bb_k:0.12,iso:.118,spd:0.8,babip:.293,ubr:-1.5,wsb:"-",wrc:14.5,wraa:-0.2,woba:.308,wrcplus:89},
+    '2023': {bbper:7.2,kper:16.6,bb_k:0.43,iso:.152,spd:1.3,babip:.267,ubr:-1.5,wsb:"-",wrc:17.6,wraa:0.5,woba:.310,wrcplus:96},
+    '2024': {bbper:5.2,kper:15.5,bb_k:0.33,iso:.044,spd:0.4,babip:.293,ubr:-1.4,wsb:"-",wrc:5.8,wraa:-2.6,woba:.262,wrcplus:64}
+  };
+
+  window.tsutsugoh25StatsData = {
+    '2010': {bbper:20.0,kper:10.0,bb_k:2.00,iso:.429,spd:0.1,babip:.000,ubr:"-",wsb:0.0,wrc:1.9,wraa:0.7,woba:.418,wrcplus:155},
+    '2011': {bbper:8.1,kper:31.9,bb_k:0.25,iso:.234,spd:1.7,babip:.310,ubr:"-",wsb:0.2,wrc:20.9,wraa:7.1,woba:.339,wrcplus:139},
+    '2012': {bbper:11.4,kper:22.9,bb_k:0.50,iso:.135,spd:2.4,babip:.265,ubr:"-",wsb:-0.5,wrc:40.5,wraa:2.5,woba:.295,wrcplus:98},
+    '2013': {bbper:5.4,kper:23.2,bb_k:0.23,iso:.078,spd:1.2,babip:.270,ubr:"-",wsb:0.0,wrc:3.7,wraa:-2.1,woba:.263,wrcplus:60},
+    '2014': {bbper:10.2,kper:21.7,bb_k:0.47,iso:.229,spd:2.8,babip:.348,ubr:0.5,wsb:-0.1,wrc:75.9,wraa:25.2,woba:.400,wrcplus:136},
+    '2015': {bbper:12.0,kper:17.3,bb_k:0.69,iso:.206,spd:1.5,babip:.354,ubr:0.2,wsb:"-",wrc:96.5,wraa:43.4,woba:.413,wrcplus:163},
+    '2016': {bbper:15.5,kper:18.7,bb_k:0.83,iso:.358,spd:2.6,babip:.332,ubr:-2.2,wsb:-0.4,wrc:125.9,wraa:67.8,woba:.479,wrcplus:196},
+    '2017': {bbper:15.5,kper:19.1,bb_k:0.81,iso:.229,spd:1.8,babip:.317,ubr:-5.3,wsb:0.2,wrc:100.7,wraa:37.6,woba:.402,wrcplus:144},
+    '2018': {bbper:13.8,kper:18.4,bb_k:0.75,iso:.301,spd:1.2,babip:.306,ubr:-0.8,wsb:"-",wrc:109.4,wraa:43.6,woba:.426,wrcplus:152},
+    '2019': {bbper:15.8,kper:25.3,bb_k:0.62,iso:.239,spd:1.0,babip:.327,ubr:-3.3,wsb:"-",wrc:91.0,wraa:29.7,woba:.391,wrcplus:136},
+    '2024': {bbper:9.5,kper:30.4,bb_k:0.31,iso:.221,spd:2.8,babip:.228,ubr:-1.7,wsb:"-",wrc:17.8,wraa:3.2,woba:.326,wrcplus:113}
+  };
+
+  window.itoh29StatsData = {
+    '2008': {bbper:"-",kper:"-",bb_k:"-",iso:"-",spd:0.1,babip:"-",ubr:"-",wsb:0.0,wrc:0.0,wraa:0.0,woba:"-",wrcplus:"-"},
+    '2010': {bbper:0.0,kper:25.0,bb_k:0.00,iso:.000,spd:0.1,babip:.000,ubr:"-",wsb:0.0,wrc:-0.6,wraa:-1.1,woba:.000,wrcplus:-126},
+    '2011': {bbper:5.9,kper:30.3,bb_k:0.19,iso:.081,spd:3.6,babip:.225,ubr:"-",wsb:-0.4,wrc:4.9,wraa:-12.4,woba:.209,wrcplus:28},
+    '2012': {bbper:2.5,kper:24.4,bb_k:0.10,iso:.051,spd:1.2,babip:.273,ubr:"-",wsb:0.0,wrc:4.9,wraa:-13.0,woba:.210,wrcplus:27},
+    '2013': {bbper:5.1,kper:17.7,bb_k:0.29,iso:.080,spd:3.4,babip:.350,ubr:"-",wsb:0.6,wrc:47.1,wraa:-2.9,woba:.306,wrcplus:93},
+    '2014': {bbper:5.6,kper:18.6,bb_k:0.30,iso:.075,spd:2.1,babip:.320,ubr:1.4,wsb:-0.7,wrc:37.7,wraa:-7.3,woba:.304,wrcplus:82},
+    '2015': {bbper:10.0,kper:18.3,bb_k:0.55,iso:.057,spd:1.6,babip:.338,ubr:-0.4,wsb:-0.4,wrc:27.3,wraa:-3.2,woba:.311,wrcplus:90},
+    '2016': {bbper:1.5,kper:17.7,bb_k:0.08,iso:.086,spd:2.5,babip:.284,ubr:0.1,wsb:0.2,wrc:12.4,wraa:-9.2,woba:.269,wrcplus:60},
+    '2017': {bbper:7.5,kper:19.7,bb_k:0.38,iso:.143,spd:3.2,babip:.221,ubr:-0.4,wsb:"-",wrc:15.7,wraa:-9.7,woba:.271,wrcplus:65},
+    '2018': {bbper:11.9,kper:19.2,bb_k:0.62,iso:.063,spd:1.9,babip:.240,ubr:-0.1,wsb:-0.2,wrc:11.4,wraa:-5.8,woba:.283,wrcplus:58},
+    '2019': {bbper:12.3,kper:15.0,bb_k:0.82,iso:.125,spd:2.3,babip:.278,ubr:0.5,wsb:-1.1,wrc:32.0,wraa:-1.1,woba:.320,wrcplus:88},
+    '2020': {bbper:15.9,kper:23.8,bb_k:0.67,iso:.098,spd:3.4,babip:.306,ubr:-0.5,wsb:"-",wrc:6.9,wraa:0.0,woba:.323,wrcplus:91},
+    '2021': {bbper:9.9,kper:22.4,bb_k:0.40,iso:.075,spd:1.8,babip:.276,ubr:-1.4,wsb:-0.2,wrc:11.9,wraa:-7.7,woba:.267,wrcplus:55},
+    '2022': {bbper:7.8,kper:22.3,bb_k:0.35,iso:.074,spd:1.1,babip:.366,ubr:0.2,wsb:"-",wrc:9.2,wraa:-0.9,woba:.300,wrcplus:83},
+    '2023': {bbper:5.1,kper:23.3,bb_k:0.22,iso:.069,spd:0.9,babip:.294,ubr:-0.7,wsb:"-",wrc:10.4,wraa:-6.2,woba:.258,wrcplus:58},
+    '2024': {bbper:4.3,kper:25.5,bb_k:0.17,iso:.080,spd:1.1,babip:.270,ubr:0.2,wsb:"-",wrc:5.2,wraa:-2.9,woba:.255,wrcplus:59}
+  };
+
+  window.shibata31StatsData = {
+    '2016': {bbper:10.9,kper:17.4,bb_k:0.63,iso:0.51,spd:5.3,babip:.258,ubr:0.2,wsb:0.2,wrc:2.6,wraa:-2.2,woba:.261,wrcplus:46},
+    '2017': {bbper:6.9,kper:20.2,bb_k:0.34,iso:.051,spd:2.4,babip:.295,ubr:3.7,wsb:-0.2,wrc:16.0,wraa:-10.1,woba:.268,wrcplus:52},
+    '2018': {bbper:11.3,kper:17.0,bb_k:0.67,iso:.067,spd:2.8,babip:.261,ubr:2.8,wsb:0.0,wrc:21.1,wraa:-9.0,woba:.289,wrcplus:62},
+    '2019': {bbper:10.2,kper:19.4,bb_k:0.53,iso:.116,spd:4.3,babip:.312,ubr:-0.7,wsb:0.5,wrc:20.4,wraa:-1.2,woba:.316,wrcplus:86},
+    '2020': {bbper:10.5,kper:18.1,bb_k:0.58,iso:.086,spd:1.6,babip:.330,ubr:2.2,wsb:"-",wrc:30.1,wraa:-0.1,woba:.323,wrcplus:91},
+    '2021': {bbper:9.8,kper:14.7,bb_k:0.67,iso:.095,spd:1.8,babip:.272,ubr:-0.1,wsb:-0.2,wrc:24.2,wraa:-3.0,woba:.303,wrcplus:81},
+    '2022': {bbper:10.1,kper:14.6,bb_k:0.69,iso:.041,spd:3.1,babip:.236,ubr:-1.1,wsb:-0.5,wrc:8.5,wraa:-10.8,woba:.239,wrcplus:38},
+    '2023': {bbper:13.6,kper:13.6,bb_k:1.00,iso:.061,spd:5.2,babip:.175,ubr:-0.2,wsb:-0.3,wrc:4.3,wraa:-2.0,woba:.266,wrcplus:63},
+    '2024': {bbper:8.8,kper:20.6,bb_k:0.43,iso:.000,spd:3.5,babip:.375,ubr:0.2,wsb:0.2,wrc:3.4,wraa:0.5,woba:.318,wrcplus:108}    
+  };
+
+  window.mashiko32StatsData = {
+    '2021': {bbper:0.0,kper:20.0,bb_k:0.00,iso:.000,spd:0.1,babip:.250,ubr:"-",wsb:"-",wrc:0.0,wraa:-0.6,woba:.176,wrcplus:-13},
+    '2022': {bbper:50.0,kper:50.0,bb_k:1.00,iso:.000,spd:0.1,babip:"-",ubr:-0.1,wsb:"-",wrc:0.2,wraa:0.0,woba:.342,wrcplus:118},
+    '2023': {bbper:"-",kper:"-",bb_k:"-",iso:"-",spd:0.1,babip:"-",ubr:"-",wsb:"-",wrc:0.0,wraa:0.0,woba:"-",wrcplus:"-"},
+  };
+
+  window.kusumoto37StatsData = {
+    '2018': {bbper:7.3,kper:23.2,bb_k:0.32,iso:.041,spd:2.3,babip:.278,ubr:-0.1,wsb:0.0,wrc:4.2,wraa:-5.1,woba:.252,wrcplus:39},
+    '2019': {bbper:8.6,kper:23.5,bb_k:0.37,iso:.097,spd:1.9,babip:.269,ubr:-0.1,wsb:-0.8,wrc:7.2,wraa:-1.7,woba:.298,wrcplus:73},
+    '2020': {bbper:6.9,kper:24.1,bb_k:0.29,iso:.192,spd:2.6,babip:.167,ubr:-0.7,wsb:"-",wrc:1.7,wraa:-1.4,woba:.262,wrcplus:48},
+    '2021': {bbper:7.9,kper:18.1,bb_k:0.43,iso:.114,spd:1.9,babip:.300,ubr:0.4,wsb:-1.2,wrc:14.1,wraa:1.1,woba:.328,wrcplus:99},
+    '2022': {bbper:7.0,kper:16.8,bb_k:0.42,iso:.110,spd:2.9,babip:.291,ubr:-0.2,wsb:0.3,wrc:34.0,wraa:2.1,woba:.319,wrcplus:97},
+    '2023': {bbper:6.3,kper:19.9,bb_k:0.31,iso:.096,spd:1.3,babip:.228,ubr:0.1,wsb:"-",wrc:9.3,wraa:-7.3,woba:.249,wrcplus:51},
+    '2024': {bbper:3.2,kper:16.1,bb_k:0.20,iso:.034,spd:0.1,babip:.208,ubr:-0.1,wsb:"-",wrc:0.5,wraa:-2.2,woba:.200,wrcplus:16}
+  };
+  window.ishikami44StatsData = {
+    '2024': {bbper:7.6,kper:21.5,bb_k:0.35,iso:.056,spd:2.4,babip:.241,ubr:0.0,wsb:0.3,wrc:3.3,wraa:-3.5,woba:.237,wrcplus:45},
+  };
+
+  window.yamamoto50StatsData = {
+    '2018': {bbper: 0.0, kper: 0.0, bb_k: "-", iso: 3.000, spd: 0.1, babip: "-", ubr: "-", wsb: "-", wrc: 1.5, wraa: 1.4, woba: 2.118, wrcplus: 1254},
+    '2019': {bbper: 0.0, kper: 25.0, bb_k: 0.00, iso: 0.000, spd: 0.1, babip: 0.444, ubr: "-", wsb: "-", wrc: 1.8, wraa: 0.5, woba: 0.373, wrcplus: 125},
+    '2020': {bbper: 0.0, kper: 33.3, bb_k: 0.00, iso: 0.000, spd: 0.1, babip: 0.000, ubr: "-", wsb: "-", wrc: -0.5, wraa: -0.8, woba: 0.000, wrcplus: -136},
+    '2021': {bbper: 3.6, kper: 24.3, bb_k: 0.15, iso: 0.051, spd: 0.6, babip: 0.169, ubr: -1.4, wsb: "-", wrc: -1.4, wraa: -12.8, woba: 0.172, wrcplus: -13},
+    '2022': {bbper: 6.3, kper: 12.5, bb_k: 0.50, iso: 0.034, spd: 0.8, babip: 0.115, ubr: -1.5, wsb: "-", wrc: -1.5, wraa: -4.7, woba: 0.121, wrcplus: -48},
+    '2023': {bbper: 9.0, kper: 13.0, bb_k: 0.69, iso: 0.104, spd: 1.9, babip: 0.310, ubr: 0.7, wsb: "-", wrc: 22.9, wraa: 4.1, woba: 0.334, wrcplus: 113},
+    '2024': {bbper: 6.7, kper: 10.2, bb_k: 0.66, iso: 0.092, spd: 2.0, babip: 0.311, ubr: -1.6, wsb: "-", wrc: 44.0, wraa: 9.0, woba: 0.330, wrcplus: 117}
+}
+
+window.miyazaki51StatsData = {
+    '2013': {bbper: 3.4, kper: 19.0, bb_k: 0.18, iso: 0.154, spd: 1.5, babip: 0.275, ubr: "-", wsb: 0.0, wrc: 6.2, wraa: 0.2, woba: 0.313, wrcplus: 96},
+    '2014': {bbper: 0.0, kper: 23.1, bb_k: 0.0, iso: 0.077, spd: 0.1, babip: 0.200, ubr: "-", wsb: "-", wrc: -0.2, wraa: -1.7, woba: 0.170, wrcplus: -23},
+    '2015': {bbper: 3.7, kper: 12.9, bb_k: 0.29, iso: 0.072, spd: 0.9, babip: 0.328, ubr: 1.5, wsb: "-", wrc: 16.4, wraa: 1.2, woba: 0.323, wrcplus: 94},
+    '2016': {bbper: 7.5, kper: 9.0, bb_k: 0.83, iso: 0.162, spd: 0.7, babip: 0.295, ubr: -1.2, wsb: "-", wrc: 48.1, wraa: 13.4, woba: 0.375, wrcplus: 123},
+    '2017': {bbper: 7.3, kper: 9.0, bb_k: 0.81, iso: 0.156, spd: 1.1, babip: 0.334, ubr: -8.2, wsb: "-", wrc: 80.5, wraa: 25.6, woba: 0.384, wrcplus: 131},
+    '2018': {bbper: 6.4, kper: 7.6, bb_k: 0.84, iso: 0.214, spd: 1.0, babip: 0.308, ubr: -1.1, wsb: "-", wrc: 98.2, wraa: 31.2, woba: 0.398, wrcplus: 133},
+    '2019': {bbper: 6.8, kper: 7.4, bb_k: 0.91, iso: 0.159, spd: 1.5, babip: 0.278, ubr: -3.5, wsb: "-", wrc: 59.7, wraa: 7.6, woba: 0.344, wrcplus: 105},
+    '2020': {bbper: 5.2, kper: 6.3, bb_k: 0.83, iso: 0.163, spd: 1.3, babip: 0.296, ubr: -0.6, wsb: "-", wrc: 64.9, wraa: 14.6, woba: 0.363, wrcplus: 118},
+    '2021': {bbper: 7.2, kper: 9.3, bb_k: 0.77, iso: 0.154, spd: 1.0, babip: 0.308, ubr: -1.6, wsb: "-", wrc: 75.6, wraa: 17.5, woba: 0.356, wrcplus: 119},
+    '2022': {bbper: 9.1, kper: 7.3, bb_k: 1.26, iso: 0.171, spd: 1.2, babip: 0.296, ubr: 2.8, wsb: "-", wrc: 69.5, wraa: 22.6, woba: 0.372, wrcplus: 136},
+    '2023': {bbper: 8.9, kper: 9.3, bb_k: 0.95, iso: 0.213, spd: 1.2, babip: 0.324, ubr: 0.2, wsb: "-", wrc: 79.8, wraa: 36.3, woba: 0.413, wrcplus: 172},
+    '2024': {bbper: 11.1, kper: 6.2, bb_k: 1.79, iso: 0.161, spd: 1.4, babip: 0.277, ubr: 3.8, wsb: 0.1, wrc: 66.1, wraa: 25.5, woba: 0.375, wrcplus: 151}
+};
+
+window.inoue55StatsData = {
+    '2024': {bbper:4.2,kper:16.7,bb_k:0.25,iso:.119,spd:2.3,babip:.235,ubr:0.0,wsb:0.2,wrc:3.3,wraa:-0.9,woba:.273,wrcplus:73},
+  };
+
+  window.aduma57StatsData = {
+    '2024': {bbper:0.0,kper:0.0,bb_k:"-",iso:.500,spd:0.1,babip:.500,ubr:0.0,wsb:"-",wrc:0.7,wraa:0.5,woba:.661,wrcplus:374},
+  };
+
+  window.kajiwara58StatsData = {
+    '2022': {bbper:0.0,kper:60.0,bb_k:0.00,iso:.200,spd:1.6,babip:.600,ubr:0.2,wsb:"-",wrc:1.6,wraa:0.1,woba:.319,wrcplus:98},
+    '2023': {bbper:1.9,kper:33.3,bb_k:0.06,iso:.075,spd:4.3,babip:.343,ubr:-0.1,wsb:-0.2,wrc:2.4,wraa:-2.6,woba:.239,wrcplus:44},
+    '2024': {bbper:2.0,kper:27.9,bb_k:0.07,iso:.100,spd:7.0,babip:.401,ubr:3.5,wsb:2.1,wrc:38.2,wraa:7.8,woba:.330,wrcplus:117},
+  };
+
+  window.chino60StatsData ={
+    '2021': {bbper: 7.5, kper: 30.0, bb_k: 0.25, iso: 0.176, spd: 5.3, babip: 0.238, ubr: -1.9, wsb: -0.4, wrc: 2.8, wraa: -1.3, woba: 0.278, wrcplus: 62},
+    '2022': {bbper: 7.1, kper: 35.7, bb_k: 0.20, iso: 0.000, spd: 5.1, babip: 0.250, ubr: 0.1, wsb: 0.2, wrc: -0.1, wraa: -1.5, woba: 0.175, wrcplus: -11},
+    '2023': {bbper: 17.9, kper: 23.1, bb_k: 0.78, iso: 0.233, spd: 5.0, babip: 0.158, ubr: 0.5, wsb: 0.0, wrc: 4.4, wraa: 0.7, woba: 0.332, wrcplus: 111},
+    '2024': {bbper: 18.2, kper: 18.2, bb_k: 1.00, iso: 0.056, spd: 4.6, babip: 0.143, ubr: 0.0, wsb: 0.2, wrc: 1.4, wraa: -0.5, woba: 0.268, wrcplus: 69}
+};
+
+window.ebina61StatsData ={
+    '2020': {bbper: 8.3, kper: 33.3, bb_k: 0.25, iso: 0.190, spd: 2.0, babip: 0.167, ubr: 0.5, wsb: "-", wrc: 1.5, wraa: -1.2, woba: 0.264, wrcplus: 48},
+    '2021': {bbper: 14.3, kper: 33.3, bb_k: 0.43, iso: 0.000, spd: 0.6, babip: 0.273, ubr: 0.9, wsb: "-", wrc: 0.6, wraa: -1.5, woba: 0.225, wrcplus: 24},
+    '2022': {bbper: 5.5, kper: 23.8, bb_k: 0.23, iso: 0.082, spd: 3.7, babip: 0.321, ubr: 4.0, wsb: -0.7, wrc: 15.2, wraa: -2.5, woba: 0.293, wrcplus: 78},
+    '2023': {bbper: 2.0, kper: 23.5, bb_k: 0.08, iso: 0.023, spd: 4.1, babip: 0.194, ubr: 1.2, wsb: 0.2, wrc: 1.3, wraa: -3.5, woba: 0.211, wrcplus: 23},
+    '2024': {bbper: 6.7, kper: 20.2, bb_k: 0.33, iso: 0.099, spd: 2.8, babip: 0.318, ubr: 2.3, wsb: -1.7, wrc: 25.1, wraa: 3.2, woba: 0.316, wrcplus: 106}
+};
+
+window.sekine63StatsData = {
+    '2014': {bbper: 0.0, kper: 23.1, bb_k: 0.00, iso: 0.000, spd: 3.2, babip: 0.333, ubr: 0.6, wsb: 0.2, wrc: 1.5, wraa: 0.0, woba: 0.334, wrcplus: 96},
+    '2015': {bbper: 5.0, kper: 13.8, bb_k: 0.36, iso: 0.104, spd: 7.1, babip: 0.254, ubr: 2.0, wsb: 0.3, wrc: 11.2, wraa: -3.6, woba: 0.284, wrcplus: 65},
+    '2016': {bbper: 1.9, kper: 17.0, bb_k: 0.11, iso: 0.031, spd: 6.5, babip: 0.250, ubr: 2.2, wsb: -0.8, wrc: 2.9, wraa: -8.1, woba: 0.224, wrcplus: 19},
+    '2017': {bbper: 5.0, kper: 25.0, bb_k: 0.20, iso: 0.000, spd: 2.6, babip: 0.214, ubr: 0.3, wsb: "-", wrc: -0.3, wraa: -2.4, woba: 0.167, wrcplus: -22},
+    '2018': {bbper: 0.0, kper: 23.1, bb_k: 0.00, iso: 0.160, spd: 7.8, babip: 0.368, ubr: -0.2, wsb: -0.4, wrc: 2.5, wraa: -0.4, woba: 0.311, wrcplus: 76},
+    '2019': {bbper: 3.7, kper: 22.2, bb_k: 0.17, iso: 0.038, spd: 2.6, babip: 0.050, ubr: -0.2, wsb: "-", wrc: -1.7, wraa: -4.7, woba: 0.109, wrcplus: -56},
+    '2021': {bbper: 6.5, kper: 19.4, bb_k: 0.33, iso: 0.073, spd: 3.8, babip: 0.281, ubr: 0.7, wsb: -0.3, wrc: 9.0, wraa: -5.2, woba: 0.270, wrcplus: 57},
+    '2022': {bbper: 4.0, kper: 13.8, bb_k: 0.29, iso: 0.073, spd: 4.7, babip: 0.292, ubr: 4.8, wsb: -0.9, wrc: 16.6, wraa: -5.3, woba: 0.280, wrcplus: 68},
+    '2023': {bbper: 5.5, kper: 10.0, bb_k: 0.55, iso: 0.073, spd: 5.4, babip: 0.286, ubr: 5.5, wsb: 0.9, wrc: 47.4, wraa: 2.7, woba: 0.299, wrcplus: 88},
+    '2024': {bbper: 7.7, kper: 13.4, bb_k: 0.58, iso: 0.016, spd: 2.8, babip: 0.266, ubr: -1.6, wsb: -0.6, wrc: 7.9, wraa: -4.4, woba: 0.256, wrcplus: 59}
+};
+window.nishimaki67StatsData = {
+    '2018': {bbper: 3.7, kper: 22.0, bb_k: 0.17, iso: 0.039, spd: 0.7, babip: 0.322, ubr: 0.3, wsb: "-", wrc: 4.1, wraa: -5.0, woba: 0.250, wrcplus: 43},
+    '2019': {bbper: 0.0, kper: 100.0, bb_k: 0.00, iso: 0.000, spd: 0.1, babip: 0.000, ubr: "-", wsb: "-", wrc: -0.1, wraa: -0.3, woba: 0.000, wrcplus: -130},
+    '2020': {bbper: 10.5, kper: 31.6, bb_k: 0.33, iso: 0.063, spd: 3.1, babip: 0.400, ubr: 1.2, wsb: -0.4, wrc: 1.7, wraa: -0.4, woba: 0.294, wrcplus: 82},
+    '2022': {bbper: 100.0, kper: 0.0, bb_k: "-", iso: 0.000, spd: 0.1, babip: "-", ubr: 0.0, wsb: "-", wrc: 0.4, wraa: 0.3, woba: 0.685, wrcplus: 406},
+    '2023': {bbper: 0.0, kper: 50.0, bb_k: 0.00, iso: 0.000, spd: 2.6, babip: 0.000, ubr: 0.4, wsb: "-", wrc: -0.5, wraa: -0.9, woba: 0.000, wrcplus: -132}
+};
+window.kyoda98StatsData ={
+    '2017': {bbper: 3.0, kper: 17.4, bb_k: 0.17, iso: 0.090, spd: 6.7, babip: 0.318, ubr: 3.4, wsb: -1.1, wrc: 54.8, wraa: -8.4, woba: 0.303, wrcplus: 87},
+    '2018': {bbper: 3.0, kper: 17.6, bb_k: 0.17, iso: 0.071, spd: 6.8, babip: 0.283, ubr: 5.7, wsb: -0.3, wrc: 39.4, wraa: -32.3, woba: 0.267, wrcplus: 58},
+    '2019': {bbper: 6.4, kper: 15.9, bb_k: 0.41, iso: 0.065, spd: 5.2, babip: 0.296, ubr: 3.5, wsb: 0.1, wrc: 44.7, wraa: -18.4, woba: 0.284, wrcplus: 74},
+    '2020': {bbper: 5.5, kper: 16.3, bb_k: 0.34, iso: 0.102, spd: 5.6, babip: 0.291, ubr: 0.5, wsb: 0.0, wrc: 41.8, wraa: -11.9, woba: 0.294, wrcplus: 81},
+    '2021': {bbper: 4.7, kper: 16.7, bb_k: 0.28, iso: 0.059, spd: 4.3, babip: 0.305, ubr: 1.5, wsb: -0.7, wrc: 37.0, wraa: -8.8, woba: 0.293, wrcplus: 83},
+    '2022': {bbper: 7.0, kper: 14.7, bb_k: 0.48, iso: 0.125, spd: 3.3, babip: 0.183, ubr: 0.2, wsb: 0.2, wrc: 7.7, wraa: -6.3, woba: 0.254, wrcplus: 60},
+    '2023': {bbper: 8.7, kper: 11.5, bb_k: 0.76, iso: 0.028, spd: 3.0, babip: 0.258, ubr: -2.3, wsb: -0.1, wrc: 20.6, wraa: -6.4, woba: 0.275, wrcplus: 71},
+    '2024': {bbper: 5.5, kper: 18.2, bb_k: 0.30, iso: 0.056, spd: 3.4, babip: 0.297, ubr: 1.1, wsb: 0.2, wrc: 15.6, wraa: -4.8, woba: 0.270, wrcplus: 70}
+};
+
 //ジャイアンツ
 
 //スワローズ
@@ -113,7 +344,7 @@ window.nagaoka07StatsData = {
     '2024': {bbper:6.8,kper:15.6,bb_k:0.44,iso:.147,spd:1.3,babip:.293,ubr:-1.8,wsb:-1.0,wrc:63.2,wraa:12.5,woba:.329,wrcplus:108},
   };
 
-  window.santana25tatsData = {
+  window.santana25StatsData = {
     '2021': {bbper:10.0,kper:24.6,bb_k:0.41,iso:.220,spd:2.1,babip:.355,ubr:-5.7,wsb:0.3,wrc:65.7,wraa:23.0,woba:.387,wrcplus:140},
     '2022': {bbper:10.7,kper:34.0,bb_k:0.32,iso:.275,spd:0.6,babip:.359,ubr:-0.2,wsb:"-",wrc:35.8,wraa:14.8,woba:.400,wrcplus:153},
     '2023': {bbper:8.5,kper:22.1,bb_k:0.39,iso:.184,spd:1.9,babip:.361,ubr:-5.2,wsb:0.3,wrc:77.5,wraa:28.9,woba:.382,wrcplus:143},
@@ -358,13 +589,13 @@ const teams = {
         "25 筒香嘉智":"tsutsugoh25",
         "29 伊藤光":"itoh29",
         "31 柴田竜拓":"shibata31",
-        "32 益子京右":"masuko32",
+        "32 益子京右":"mashiko32",
         "37 楠本泰史":"kusumoto37",
         "44 石上泰輝":"ishikami44",
         "50 山本祐大":"yamamoto50",
         "51 宮﨑敏郎":"miyazaki51",
         "55 井上絢登":"inoue55",
-        "57 東妻純平":"azuma57",
+        "57 東妻純平":"aduma57",
         "58 梶原昂希":"kajiwara58",
         "60 知野直人":"chino60",
         "61 蝦名達夫":"ebina61",
@@ -679,6 +910,35 @@ const teams = {
 
 // 選手ごとのデータ
 const playerStats = {
+
+    //DeNA
+    hayashi00: window.hayashi00StatsData,
+    kuwahara01: window.kuwahara01StatsData,
+    maki02: window.maki02StatsData,
+    TA03: window.TA03StatsData,
+    watarai04: window.watarai04StatsData,
+    matsuo05: window.matsuo05StatsData,
+    mori06: window.mori06StatsData,
+    sano07: window.sano07StatsData,
+    kamizato08: window.kamizato08StatsData,
+    tobashira10: window.tobashira10StatsData,
+    tsutsugoh25: window.tsutsugoh25StatsData,
+    itoh29: window.itoh29StatsData,
+    shibata31: window.shibata31StatsData,
+    mashiko32: window.mashiko32StatsData,
+    kusumoto37: window.kusumoto37StatsData,
+    ishikami44: window.ishikami44StatsData,
+    yamamoto50: window.yamamoto50StatsData,
+    miyazaki51: window.miyazaki51StatsData,
+    inoue55: window.inoue55StatsData,
+    aduma57: window.aduma57StatsData,
+    kajiwara58: window.kajiwara58StatsData,
+    chino60: window.chino60StatsData,
+    ebina61: window.ebina61StatsData,
+    sekine63: window.sekine63StatsData,
+    nishimaki67: window.nishimaki67StatsData,
+    kyoda98: window.kyoda98StatsData,
+
     //ヤクルト
     namiki0: window.namiki0StatsData,
     akahane00:window.akahane00StatsData,

@@ -553,7 +553,6 @@ const yamadabatStats=[
     '2021':{kper:12.6,bbper:6.1,kbb:6.6,hrper:0.0,ave:.251,der:.707,lob:77.0,ramin:68,fipmin:78,xfipmin:110,ra:2.68,fip:3.07,r_f:-0.39,xfip:4.32,tra:3.20},
     '2022':{kper:10.9,bbper:6.7,kbb:4.2,hrper:2.9,ave:.307,der:.676,lob:73.6,ramin:133,fipmin:132,xfipmin:125,ra:4.93,fip:4.89,r_f:0.04,xfip:4.61,tra:5.12},
     '2024':{kper:5.1,bbper:7.7,kbb:-2.6,hrper:2.6,ave:.171,der:.848,lob:92.1,ramin:56,fipmin:142,xfipmin:131,ra:1.80,fip:4.59,r_f:-2.79,xfip:4.25,tra:4.33}
-
   };
   
   
