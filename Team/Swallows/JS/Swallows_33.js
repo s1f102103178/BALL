@@ -142,10 +142,10 @@ const yamadaStats =[
   ]
   
   window.yamadaStatsData = {
-    '20': {bbper:16.7,kper:16.7,bb_k:1.00,iso:.000,spd:0.1,babip:.00,ubr:"-",wsb:"-",wrc:-0.3,wraa:-1.0,woba:.116,wrcplus:-55},
-    '20': {bbper:8.1,kper:26.4,bb_k:0.31,iso:.130,spd:1.9,babip:.306,ubr:-1.6,wsb:"-",wrc:20.0,wraa:0.8,woba:.316,wrcplus:92},
-    '20': {bbper:7.1,kper:13.8,bb_k:0.51,iso:.133,spd:3.1,babip:.247,ubr:1.2,wsb:0.5,wrc:26.2,wraa:0.9,woba:.310,wrcplus:90},
-    '20': {bbper:1.9,kper:24.1,bb_k:0.08,iso:.019,spd:2.0,babip:.256,ubr:-1.0,wsb:0.2,wrc:0.7,wraa:-4.0,woba:.196,wrcplus:3},
+    '2021': {bbper:16.7,kper:16.7,bb_k:1.00,iso:.000,spd:0.1,babip:.00,ubr:"-",wsb:"-",wrc:-0.3,wraa:-1.0,woba:.116,wrcplus:-55},
+    '2022': {bbper:8.1,kper:26.4,bb_k:0.31,iso:.130,spd:1.9,babip:.306,ubr:-1.6,wsb:"-",wrc:20.0,wraa:0.8,woba:.316,wrcplus:92},
+    '2023': {bbper:7.1,kper:13.8,bb_k:0.51,iso:.133,spd:3.1,babip:.247,ubr:1.2,wsb:0.5,wrc:26.2,wraa:0.9,woba:.310,wrcplus:90},
+    '2024': {bbper:1.9,kper:24.1,bb_k:0.08,iso:.019,spd:2.0,babip:.256,ubr:-1.0,wsb:0.2,wrc:0.7,wraa:-4.0,woba:.196,wrcplus:3},
   };
   
   

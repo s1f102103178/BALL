@@ -197,14 +197,14 @@ const yamadaStats =[
       }
   ]
   window.yamadaStatsData = {
-    '2018': {kper:26.9, iso:.040, babip:.056, wsb:"--", wraa:-4.5, wrcplus:-60, bbper:3.8 , bb_k:0.14, spd:2.6, ubr:0.1, wrc:-1.6, woba:.113},
-    '2019': {kper:24.5, iso:.102, babip:.238, wsb:0.3, wraa:-4.8, wrcplus:47, bbper: 8.2, bb_k:0.33, spd:7.7, ubr:3.4, wrc:5.9, woba:.262},
-    '2020': {kper:24.6, iso:.208, babip:.343, wsb:1.6, wraa:8.5, wrcplus:129, bbper: 9.5, bb_k:0.39, spd:6.7, ubr:0.4, wrc:28.1, woba:.382},
-    '2021': {kper:29.2, iso:.162, babip:.388, wsb:1.9, wraa:17.3, wrcplus:120, bbper:9.0, bb_k:0.31, spd:7.4, ubr:3.8, wrc:71.9, woba:.358},
-    '2022': {kper:21.5, iso:.177, babip:.332, wsb:1.7, wraa:24.5, wrcplus:130, bbper:7.6, bb_k:0.35, spd:7.0, ubr:5.5, wrc:79.6, woba:.367},
-    '2023': {kper:19.1, iso:.199, babip:.345, wsb:-0.5, wraa:14.0, wrcplus:153, bbper:9.1, bb_k: 0.48, spd:4.2, ubr:2.3, wrc:33.7, woba:.397},
-    '2024': {kper:14.2, iso:.119, babip:.289, wsb:0.8, wraa:2.0, wrcplus:103, bbper:8.0, bb_k: 0.56, spd:3.6, ubr:0.8, wrc:11.8, woba:.324}
-  };
+    '2018': {bbper: 6.7, kper: 13.3, bb_k: 0.50, iso: 0.000, spd: 2.6, babip: 0.091, ubr: 0.4, wsb: "-", wrc: -0.9, wraa: -2.6, woba: 0.113, wrcplus: -56},
+    '2019': {bbper: 5.9, kper: 11.8, bb_k: 0.50, iso: 0.000, spd: 1.1, babip: 0.231, ubr: 0.0, wsb: "-", wrc: 0.3, wraa: -1.6, woba: 0.208, wrcplus: 9},
+    '2020': {bbper: 0.0, kper: 8.7, bb_k: 0.00, iso: 0.000, spd: 0.1, babip: 0.051, ubr: -0.5, wsb: "-", wrc: -4.4, wraa: -9.4, woba: 0.072, wrcplus: -88},
+    '2021': {bbper: 3.2, kper: 12.8, bb_k: 0.25, iso: 0.017, spd: 1.9, babip: 0.260, ubr: 0.1, wsb: "-", wrc: 4.0, wraa: -8.8, woba: 0.229, wrcplus: 26},
+    '2022': {bbper: 2.6, kper: 14.3, bb_k: 0.18, iso: 0.042, spd: 0.4, babip: 0.210, ubr: 0.2, wsb: "-", wrc: 0.6, wraa: -6.9, woba: 0.194, wrcplus: 2},
+    '2023': {bbper: 10.0, kper: 7.5, bb_k: 1.33, iso: 0.059, spd: 1.5, babip: 0.311, ubr: -3.2, wsb: "-", wrc: 9.4, wraa: 1.9, woba: 0.337, wrcplus: 108}
+}
+;
   
   
   const yamadateamStatsByYear = {
