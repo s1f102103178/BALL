@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 .players-group {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
     gap: 20px;
     justify-items: center;
 }
@@ -138,4 +138,40 @@ footer {
     grid-template-columns: repeat(4, 1fr); /* 4列固定 */
     gap: 20px; /* カード間の間隔 */
     justify-items: center; /* 中央揃え */
+}
+
+/* タブスタイル */
+.tab-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #003366;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tab-button.active {
+    background-color: #ff4500;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
 }
