@@ -1,6 +1,28 @@
 //タイガース
+window.guerra00StatsData = {
+    '2024': {kper:20.6,bbper:7.4,kbb:13.2,hrper:1.1,ave:.321,der:.609,lob:73.6,ramin:135,fipmin:79,xfipmin:88,ra:4.35,fip:2.56,r_f:1.80,xfip:2.84,tra:2.76},
+  };
+
+  window.yuasa65StatsData = {
+    '2021':{kper:9.5,bbper:9.5,kbb:0.0,hrper:0.0,ave:.588,der:.412,lob:41.7,ramin:536,fipmin:100,xfipmin:157,ra:21.00,fip:3.91,r_f:17.09,xfip:6.16,tra:4.47},
+    '2022':{kper:30.3,bbper:5.4,kbb:24.9,hrper:0.5,ave:.185,der:.709,lob:88.5,ramin:29,fipmin:46,xfipmin:65,ra:1.09,fip:1.70,r_f:-0.61,xfip:2.39,tra:1.54},
+    '2023':{kper:22.4,bbper:11.9,kbb:10.4,hrper:4.5,ave:.254,der:.634,lob:79.8,ramin:143,fipmin:152,xfipmin:104,ra:5.02,fip:5.36,r_f:-0.33,xfip:3.66,tra:4.77} 
+};
 
 //カープ
+window.kuri11StatsData = {
+    '2014':{kper:13.7,bbper:8.5,kbb:5.2,hrper:2.5,ave:.291,der:.674,lob:72.4,ramin:113,fipmin:116,xfipmin:115,ra:4.86,fip:4.98,r_f:-0.12,xfip:4.95,tra:5.24},
+    '2015':{kper:13.3,bbper:9.3,kbb:4.0,hrper:4.0,ave:.302,der:.667,lob:74.6,ramin:155,fipmin:160,xfipmin:124,ra:5.63,fip:5.63,r_f:-0.19,xfip:4.51,tra:5.38},
+    '2016':{kper:14.8,bbper:10.5,kbb:4.3,hrper:2.6,ave:.262,der:.698,lob:67.0,ramin:131,fipmin:120,xfipmin:117,ra:5.29,fip:5.29,r_f:0.42,xfip:4.75,tra:4.94},
+    '2017':{kper:19.6,bbper:8.9,kbb:10.7,hrper:1.4,ave:.256,der:.681,lob:72.4,ramin:98,fipmin:92,xfipmin:96,ra:3.95,fip:3.95,r_f:0.24,xfip:3.90,tra:3.42},
+    '2018':{kper:16.4,bbper:7.8,kbb:8.6,hrper:2.5,ave:.274,der:.689,lob:73.2,ramin:100,fipmin:102,xfipmin:104,ra:4.49,fip:4.49,r_f:-0.10,xfip:4.69,tra:4.88},
+    '2019':{kper:19.3,bbper:8.2,kbb:11.0,hrper:2.2,ave:.240,der:.714,lob:74.7,ramin:89,fipmin:97,xfipmin:101,ra:3.81,fip:3.81,r_f:-0.33,xfip:4.32,tra:3.88},
+    '2020':{kper:19.5,bbper:8.1,kbb:11.4,hrper:2.0,ave:.238,der:.702,lob:78.8,ramin:75,fipmin:92,xfipmin:96,ra:3.17,fip:3.17,r_f:-0.71,xfip:4.01,tra:3.78},
+    '2021':{kper:15.8,bbper:7.9,kbb:7.9,hrper:2.8,ave:.264,der:.688,lob:74.0,ramin:113,fipmin:118,xfipmin:113,ra:4.41,fip:4.41,r_f:-0.20,xfip:4.41,tra:4.41},
+    '2022':{kper:19.9,bbper:8.7,kbb:11.2,hrper:2.1,ave:.274,der:.659,lob:80.6,ramin:95,fipmin:105,xfipmin:106,ra:3.53,fip:3.53,r_f:-0.35,xfip:3.91,tra:3.84},
+    '2023':{kper:18.3,bbper:6.9,kbb:11.3,hrper:1.1,ave:.231,der:.722,lob:75.3,ramin:85,fipmin:87,xfipmin:101,ra:2.99,fip:2.99,r_f:-0.07,xfip:3.54,tra:3.02},
+    '2024':{kper:18.0,bbper:5.5,kbb:12.5,hrper:2.3,ave:.236,der:.720,lob:75.5,ramin:104,fipmin:110,xfipmin:96,ra:3.35,fip:3.35,r_f:-0.19,xfip:3.11,tra:3.57}
+};
 
 //ベイスターズ
 window.azuma11StatsData = {
@@ -233,6 +255,25 @@ window.diaz93StatsData = {
 };
 
 //ジャイアンツ
+
+
+
+window.taisei15StatsData = {
+    '2022':{kper:27.1,bbper:5.9,kbb:21.3,hrper:3.2,ave:.189,der:.761,lob:83.7,ramin:73,fipmin:94,xfipmin:73,ra:2.68,fip:3.50,r_f:-0.81,xfip:2.71,tra:3.06},
+    '2023':{kper:29.3,bbper:9.5,kbb:19.8,hrper:3.4,ave:.257,der:.621,lob:77.2,ramin:128,fipmin:109,xfipmin:79,ra:4.50,fip:3.82,r_f:0.68,xfip:2.77,tra:4.03},
+    '2024':{kper:33.5,bbper:5.0,kbb:28.6,hrper:0.0,ave:.185,der:.687,lob:88.9,ramin:27,fipmin:28,xfipmin:42,ra:0.88,fip:0.90,r_f:-0.02,xfip:1.36,tra:1.00}        
+};
+
+window.takanashi53StatsData = {
+    '2017':{kper:26.2,bbper:9.3,kbb:16.9,hrper:1.1,ave:.194,der:.711,lob:78.4,ramin:67,fipmin:70,xfipmin:75,ra:2.68,fip:2.83,r_f:-0.15,xfip:3.01,tra:2.49},
+    '2018':{kper:25.0,bbper:10.8,kbb:14.2,hrper:0.5,ave:.211,der:.674,lob:70.1,ramin:94,fipmin:68,xfipmin:87,ra:3.94,fip:2.85,r_f:1.09,xfip:3.67,tra:2.33},
+    '2019':{kper:28.1,bbper:15.8,kbb:12.3,hrper:0.0,ave:.217,der:.667,lob:84.6,ramin:53,fipmin:72,xfipmin:91,ra:2.30,fip:3.10,r_f:-0.80,xfip:3.90,tra:3.30},
+    '2020':{kper:26.2,bbper:9.2,kbb:17.0,hrper:1.4,ave:.140,der:.819,lob:78.3,ramin:57,fipmin:87,xfipmin:85,ra:2.41,fip:3.64,r_f:-1.23,xfip:3.55,tra:3.58},
+    '2021':{kper:27.5,bbper:12.3,kbb:15.2,hrper:1.2,ave:.238,der:.656,lob:75.2,ramin:100,fipmin:81,xfipmin:87,ra:3.92,fip:3.19,r_f:0.74,xfip:3.42,tra:2.78},
+    '2022':{kper:22.6,bbper:9.7,kbb:12.8,hrper:0.5,ave:.194,der:.724,lob:78.4,ramin:68,fipmin:78,xfipmin:95,ra:2.53,fip:2.90,r_f:-0.38,xfip:3.52,tra:2.30},
+    '2023':{kper:26.5,bbper:10.3,kbb:16.2,hrper:3.8,ave:.205,der:.736,lob:75.2,ramin:125,fipmin:122,xfipmin:88,ra:4.40,fip:4.29,r_f:0.11,xfip:3.11,tra:4.00},
+    '2024':{kper:20.0,bbper:10.3,kbb:9.7,hrper:0.7,ave:.206,der:.750,lob:80.8,ramin:71,fipmin:90,xfipmin:98,ra:2.29,fip:2.92,r_f:-0.63,xfip:3.17,tra:2.87}
+};
 
 //スワローズ
 window.ishiyama12StatsData = {
@@ -480,27 +521,169 @@ window.yajure99StatsData = {
 
 };
 //ドラゴンズ
+window.neo07StatsData = {
+    '2022':{kper:17.7,bbper:9.7,kbb:8.1,hrper:1.6,ave:.221,der:.741,lob:73.9,ramin:101,fipmin:108,xfipmin:116,ra:3.72,fip:3.99,r_f:-0.27,xfip:4.31,tra:4.16},
+    '2023':{kper:7.8,bbper:15.7,kbb:-7.8,hrper:0.0,ave:.209,der:.769,lob:70.6,ramin:101,fipmin:123,xfipmin:152,ra:3.55,fip:4.32,r_f:-0.77,xfip:5.32,tra:4.13},
+    '2024':{kper:17.9,bbper:17.9,kbb:0.0,hrper:5.1,ave:.313,der:.652,lob:56.3,ramin:327,fipmin:229,xfipmin:152,ra:10.57,fip:7.39,r_f:3.17,xfip:4.89,tra:7.01}
+};
+
+window.martinez92StatsData = {
+    '2018':{kper:14.1,bbper:8.1,kbb:6.1,hrper:4.0,ave:.318,der:.667,lob:66.9,ramin:148,fipmin:131,xfipmin:112,ra:6.65,fip:5.87,r_f:0.78,xfip:5.05,tra:5.89},
+    '2019':{kper:28.1,bbper:8.2,kbb:19.9,hrper:1.2,ave:.225,der:.686,lob:78.4,ramin:67,fipmin:66,xfipmin:78,ra:2.88,fip:2.80,r_f:0.08,xfip:3.32,tra:2.61},
+    '2020':{kper:31.6,bbper:7.7,kbb:23.9,hrper:1.3,ave:.171,der:.736,lob:93.6,ramin:27,fipmin:60,xfipmin:70,ra:1.13,fip:2.50,r_f:-1.37,xfip:2.92,tra:2.20},
+    '2021':{kper:33.1,bbper:5.6,kbb:27.5,hrper:0.6,ave:.159,der:.757,lob:73.0,ramin:53,fipmin:43,xfipmin:52,ra:2.06,fip:1.68,r_f:0.39,xfip:2.04,tra:1.35},
+    '2022':{kper:29.1,bbper:5.6,kbb:23.5,hrper:0.9,ave:.157,der:.774,lob:92.6,ramin:26,fipmin:58,xfipmin:67,ra:0.97,fip:2.16,r_f:-1.19,xfip:2.47,tra:1.75},
+    '2023':{kper:35.8,bbper:2.3,kbb:33.5,hrper:0.6,ave:.187,der:.689,lob:92.3,ramin:22,fipmin:27,xfipmin:36,ra:0.77,fip:0.93,r_f:-0.16,xfip:1.26,tra:0.93},
+    '2024':{kper:27.2,bbper:5.5,kbb:21.7,hrper:0.5,ave:.177,der:.755,lob:86.1,ramin:38,fipmin:59,xfipmin:69,ra:1.24,fip:1.90,r_f:-0.66,xfip:2.24,tra:1.71}
+};
 
 //バファローズ
 
+window.hirano16StatsData = {
+    '2006':{kper:14.4,bbper:5.3,kbb:9.0,hrper:"-",ave:"-",der:.701,lob:69.0,ramin:106,fipmin:92,xfipmin:"-",ra:4.28,fip:3.70,r_f:0.59,xfip:"-",tra:"-"},
+    '2007':{kper:17.5,bbper:3.9,kbb:13.5,hrper:"-",ave:"-",der:.712,lob:72.3,ramin:100,fipmin:96,xfipmin:"-",ra:3.93,fip:3.78,r_f:0.15,xfip:"-",tra:"-"},
+    '2009':{kper:18.4,bbper:7.7,kbb:10.7,hrper:"-",ave:"-",der:.673,lob:72.6,ramin:109,fipmin:102,xfipmin:"-",ra:4.72,fip:4.41,r_f:0.31,xfip:"-",tra:"-"},
+    '2010':{kper:30.2,bbper:8.4,kbb:21.9,hrper:"-",ave:"-",der:.685,lob:85.2,ramin:49,fipmin:64,xfipmin:"-",ra:2.12,fip:2.77,r_f:-0.65,xfip:"-",tra:"-"},
+    '2011':{kper:31.2,bbper:5.4,kbb:25.9,hrper:"-",ave:.170,der:.774,lob:79.8,ramin:59,fipmin:61,xfipmin:"-",ra:1.94,fip:2.01,r_f:-0.07,xfip:"-",tra:"-"},
+    '2012':{kper:26.1,bbper:1.6,kbb:24.4,hrper:"-",ave:.221,der:.718,lob:76.8,ramin:70,fipmin:56,xfipmin:"-",ra:2.37,fip:1.92,r_f:0.45,xfip:"-",tra:"-"},
+    '2013':{kper:27.5,bbper:5.4,kbb:22.1,hrper:"-",ave:.242,der:.676,lob:80.9,ramin:58,fipmin:55,xfipmin:"-",ra:2.30,fip:2.17,r_f:0.13,xfip:"-",tra:"-"},
+    '2014':{kper:29.4,bbper:5.5,kbb:23.9,hrper:2.5,ave:.241,der:.685,lob:74.2,ramin:86,fipmin:74,xfipmin:66,ra:3.43,fip:2.93,r_f:0.50,xfip:2.60,tra:3.12},
+    '2015':{kper:28.7,bbper:10.3,kbb:18.4,hrper:2.9,ave:.252,der:.679,lob:78.1,ramin:103,fipmin:97,xfipmin:82,ra:4.06,fip:3.85,r_f:0.21,xfip:3.24,tra:3.84},
+    '2016':{kper:24.1,bbper:6.8,kbb:17.3,hrper:0.8,ave:.207,der:.720,lob:82.5,ramin:48,fipmin:68,xfipmin:76,ra:1.92,fip:2.74,r_f:-0.83,xfip:3.05,tra:2.40},
+    '2017':{kper:19.6,bbper:6.7,kbb:12.9,hrper:2.1,ave:.266,der:.690,lob:82.1,ramin:74,fipmin:89,xfipmin:91,ra:2.98,fip:3.58,r_f:-0.60,xfip:3.64,tra:3.29},
+    '2021':{kper:22.7,bbper:5.5,kbb:17.2,hrper:2.5,ave:.200,der:.752,lob:83.8,ramin:61,fipmin:84,xfipmin:85,ra:2.30,fip:3.18,r_f:-0.88,xfip:3.23,tra:2.98},
+    '2022':{kper:24.0,bbper:6.9,kbb:17.1,hrper:1.7,ave:.162,der:.802,lob:89.1,ramin:45,fipmin:85,xfipmin:89,ra:1.57,fip:2.98,r_f:-1.41,xfip:3.09,tra:2.61},
+    '2023':{kper:14.4,bbper:7.8,kbb:6.6,hrper:0.6,ave:.247,der:.698,lob:92.4,ramin:32,fipmin:89,xfipmin:107,ra:1.13,fip:3.12,r_f:-1.99,xfip:3.73,tra:2.68},
+    '2024':{kper:19.0,bbper:8.6,kbb:10.3,hrper:1.7,ave:.373,der:.512,lob:61.9,ramin:250,fipmin:108,xfipmin:105,ra:8.84,fip:3.65,r_f:4.79,xfip:3.53,tra:4.50}
+};
+
 //ロッテ
+
+window.sawamura11StatsData = {
+    '2011':{kper:22.1,bbper:5.7,kbb:16.4,hrper:"-",ave:.210,der:.754,lob:81.4,ramin:71,fipmin:88,xfipmin:"-",ra:2.39,fip:2.97,r_f:-0.59,xfip:"-",tra:"-"},
+    '2012':{kper:19.3,bbper:7.5,kbb:11.7,hrper:"-",ave:.267,der:.685,lob:81.6,ramin:92,fipmin:100,xfipmin:"-",ra:2.97,fip:3.21,r_f:-0.24,xfip:"-",tra:"-"},
+    '2013':{kper:22.6,bbper:6.6,kbb:16.1,hrper:"-",ave:.233,der:.727,lob:79.6,ramin:81,fipmin:91,xfipmin:"-",ra:3.30,fip:3.71,r_f:-0.41,xfip:"-",tra:"-"},
+    '2014':{kper:22.1,bbper:4.7,kbb:17.4,hrper:1.0,ave:.250,der:.687,lob:66.8,ramin:89,fipmin:66,xfipmin:80,ra:3.84,fip:2.86,r_f:0.98,xfip:3.46,tra:3.03},
+    '2015':{kper:21.3,bbper:7.4,kbb:13.8,hrper:1.4,ave:.234,der:.701,lob:91.6,ramin:44,fipmin:88,xfipmin:89,ra:1.58,fip:3.19,r_f:-1.61,xfip:3.25,tra:2.97},
+    '2016':{kper:20.3,bbper:8.1,kbb:12.2,hrper:1.8,ave:.253,der:.702,lob:82.9,ramin:69,fipmin:90,xfipmin:96,ra:2.80,fip:3.65,r_f:-0.85,xfip:3.90,tra:3.76},
+    '2018':{kper:22.7,bbper:11.3,kbb:11.3,hrper:1.7,ave:.274,der:.647,lob:70.5,ramin:111,fipmin:89,xfipmin:99,ra:4.99,fip:3.99,r_f:0.99,xfip:4.43,tra:4.04},
+    '2019':{kper:27.9,bbper:8.6,kbb:19.3,hrper:1.5,ave:.230,der:.681,lob:82.4,ramin:61,fipmin:73,xfipmin:82,ra:2.61,fip:3.12,r_f:-0.52,xfip:3.51,tra:2.94},
+    '2020':{kper:35.4,bbper:12.2,kbb:23.2,hrper:2.4,ave:.139,der:.780,lob:93.0,ramin:41,fipmin:77,xfipmin:65,ra:1.71,fip:3.23,r_f:-1.52,xfip:2.73,tra:2.88},
+    '2023':{kper:16.2,bbper:12.2,kbb:4.1,hrper:4.1,ave:.270,der:.727,lob:78.0,ramin:140,fipmin:157,xfipmin:118,ra:4.91,fip:5.47,r_f:-0.56,xfip:4.11,tra:5.80},
+    '2024':{kper:17.8,bbper:13.0,kbb:4.8,hrper:2.1,ave:.198,der:.771,lob:78.4,ramin:99,fipmin:131,xfipmin:124,ra:3.34,fip:4.43,r_f:-1.09,xfip:4.17,tra:3.81},
+
+};
+
+window.masuda52StatsData = {
+    '2012':{kper:18.5,bbper:6.2,kbb:12.3,hrper:"-",ave:.227,der:.741,lob:72.0,ramin:88,fipmin:76,xfipmin:"-",ra:2.99,fip:2.60,r_f:0.39,xfip:"-",tra:"-"},
+    '2013':{kper:24.6,bbper:6.0,kbb:18.7,hrper:"-",ave:.269,der:.654,lob:75.5,ramin:88,fipmin:67,xfipmin:"-",ra:3.48,fip:2.63,r_f:0.86,xfip:"-",tra:"-"},
+    '2014':{kper:25.2,bbper:7.1,kbb:18.1,hrper:1.3,ave:.280,der:.628,lob:65.9,ramin:125,fipmin:73,xfipmin:78,ra:4.94,fip:2.90,r_f:2.05,xfip:3.08,tra:3.07},
+    '2015':{kper:18.5,bbper:9.3,kbb:9.3,hrper:0.9,ave:.245,der:.700,lob:70.4,ramin:99,fipmin:86,xfipmin:104,ra:3.91,fip:3.39,r_f:0.52,xfip:4.11,tra:3.12},
+    '2016':{kper:15.1,bbper:6.7,kbb:8.4,hrper:0.8,ave:.248,der:.712,lob:84.6,ramin:49,fipmin:82,xfipmin:90,ra:1.98,fip:3.28,r_f:-1.30,xfip:3.62,tra:2.75},
+    '2017':{kper:17.9,bbper:9.3,kbb:8.6,hrper:4.9,ave:.322,der:.655,lob:82.3,ramin:127,fipmin:139,xfipmin:101,ra:5.09,fip:5.60,r_f:-0.51,xfip:4.05,tra:5.12},
+    '2018':{kper:23.1,bbper:10.2,kbb:12.9,hrper:2.3,ave:.192,der:.754,lob:73.2,ramin:86,fipmin:92,xfipmin:92,ra:3.64,fip:3.89,r_f:-0.25,xfip:3.85,tra:3.88},
+    '2019':{kper:24.5,bbper:9.6,kbb:14.8,hrper:2.2,ave:.180,der:.771,lob:84.9,ramin:53,fipmin:85,xfipmin:85,ra:2.30,fip:3.65,r_f:-1.34,xfip:3.65,tra:3.58},
+    '2020':{kper:24.8,bbper:7.9,kbb:16.8,hrper:0.5,ave:.228,der:.688,lob:77.2,ramin:62,fipmin:61,xfipmin:80,ra:2.60,fip:2.58,r_f:0.02,xfip:3.35,tra:2.38},
+    '2021':{kper:27.4,bbper:6.0,kbb:21.4,hrper:2.0,ave:.188,der:.763,lob:80.4,ramin:63,fipmin:69,xfipmin:76,ra:2.38,fip:2.62,r_f:-0.24,xfip:2.89,tra:2.68},
+    '2022':{kper:21.0,bbper:8.5,kbb:12.5,hrper:2.7,ave:.236,der:.711,lob:78.9,ramin:104,fipmin:110,xfipmin:98,ra:3.63,fip:3.83,r_f:-0.20,xfip:3.43,tra:4.02},
+    '2023':{kper:24.3,bbper:6.3,kbb:18.0,hrper:4.1,ave:.240,der:.701,lob:79.8,ramin:111,fipmin:114,xfipmin:83,ra:3.88,fip:3.97,r_f:-0.09,xfip:2.89,tra:3.68},
+    '2024':{kper:20.3,bbper:8.1,kbb:12.2,hrper:1.2,ave:.179,der:.771,lob:68.0,ramin:102,fipmin:94,xfipmin:104,ra:3.46,fip:3.18,r_f:0.27,xfip:3.52,tra:2.89}
+};
 
 //ソフトバンク
 
+window.matayoshi14StatsData = {
+    '2014':{kper:32.4,bbper:8.7,kbb:23.7,hrper:0.9,ave:.178,der:.736,lob:79.7,ramin:51,fipmin:60,xfipmin:73,ra:2.21,fip:2.58,r_f:-0.37,xfip:3.13,tra:2.59},
+    '2015':{kper:27.2,bbper:7.6,kbb:19.6,hrper:1.7,ave:.243,der:.663,lob:76.2,ramin:92,fipmin:79,xfipmin:82,ra:3.36,fip:2.88,r_f:0.48,xfip:2.97,tra:2.53},
+    '2016':{kper:23.0,bbper:7.1,kbb:15.9,hrper:1.3,ave:.270,der:.634,lob:75.9,ramin:90,fipmin:76,xfipmin:83,ra:3.62,fip:3.07,r_f:0.55,xfip:3.36,tra:3.00},
+    '2017':{kper:18.0,bbper:8.3,kbb:9.7,hrper:1.6,ave:.218,der:.740,lob:85.1,ramin:55,fipmin:96,xfipmin:101,ra:2.21,fip:3.88,r_f:-1.67,xfip:4.09,tra:3.86},
+    '2018':{kper:15.0,bbper:9.1,kbb:5.9,hrper:3.2,ave:.321,der:.637,lob:66.0,ramin:145,fipmin:119,xfipmin:113,ra:6.53,fip:5.35,r_f:1.18,xfip:5.06,tra:5.27},
+    '2019':{kper:20.3,bbper:10.4,kbb:9.9,hrper:2.7,ave:.220,der:.742,lob:70.8,ramin:100,fipmin:107,xfipmin:104,ra:4.26,fip:4.56,r_f:-0.30,xfip:4.43,tra:4.59},
+    '2020':{kper:17.1,bbper:7.6,kbb:9.5,hrper:1.9,ave:.237,der:.737,lob:81.6,ramin:66,fipmin:94,xfipmin:105,ra:2.77,fip:3.94,r_f:-1.17,xfip:4.39,tra:4.16},
+    '2021':{kper:16.7,bbper:9.0,kbb:7.8,hrper:0.8,ave:.215,der:.743,lob:87.8,ramin:40,fipmin:86,xfipmin:101,ra:1.56,fip:3.35,r_f:-1.79,xfip:3.97,tra:3.01},
+    '2022':{kper:18.0,bbper:6.6,kbb:11.5,hrper:3.3,ave:.252,der:.739,lob:91.8,ramin:69,fipmin:112,xfipmin:93,ra:2.40,fip:3.91,r_f:-1.51,xfip:3.23,tra:3.10},
+    '2023':{kper:13.3,bbper:8.8,kbb:4.4,hrper:1.8,ave:.214,der:.774,lob:86.1,ramin:64,fipmin:119,xfipmin:124,ra:2.25,fip:4.16,r_f:-1.91,xfip:4.32,tra:3.51},
+    '2024':{kper:14.3,bbper:6.0,kbb:8.3,hrper:1.2,ave:.253,der:.713,lob:69.9,ramin:112,fipmin:100,xfipmin:115,ra:3.76,fip:3.36,r_f:0.41,xfip:3.87,tra:3.38}
+};
+
 
 //楽天
+window.kishi11StatsData = {
+    '2007':{kper:21.8,bbper:8.5,kbb:13.4,hrper:"-",ave:"-",der:.732,lob:76.9,ramin:91,fipmin:101,xfipmin:"-",ra:3.57,fip:3.99,r_f:-0.42,xfip:"-",tra:"-"},
+    '2008':{kper:19.9,bbper:6.9,kbb:12.9,hrper:"-",ave:"-",der:.717,lob:74.3,ramin:81,fipmin:87,xfipmin:"-",ra:3.48,fip:3.71,r_f:-0.24,xfip:"-",tra:"-"},
+    '2009':{kper:18.3,bbper:7.0,kbb:11.3,hrper:"-",ave:"-",der:.732,lob:80.1,ramin:84,fipmin:106,xfipmin:"-",ra:3.66,fip:4.62,r_f:-0.97,xfip:"-",tra:"-"},
+    '2010':{kper:23.9,bbper:5.7,kbb:18.3,hrper:"-",ave:"-",der:.706,lob:76.0,ramin:75,fipmin:80,xfipmin:"-",ra:3.25,fip:3.47,r_f:-0.23,xfip:"-",tra:"-"},
+    '2011':{kper:18.8,bbper:6.9,kbb:11.9,hrper:"-",ave:.259,der:.705,lob:69.1,ramin:132,fipmin:111,xfipmin:"-",ra:4.33,fip:3.64,r_f:0.69,xfip:"-",tra:"-"},
+    '2012':{kper:20.6,bbper:5.5,kbb:15.1,hrper:"-",ave:.213,der:.749,lob:77.1,ramin:73,fipmin:82,xfipmin:"-",ra:2.49,fip:2.78,r_f:-0.28,xfip:"-",tra:"-"},
+    '2013':{kper:19.3,bbper:4.3,kbb:14.9,hrper:"-",ave:.237,der:.737,lob:76.7,ramin:81,fipmin:91,xfipmin:"-",ra:3.18,fip:3.60,r_f:-0.42,xfip:"-",tra:"-"},
+    '2014':{kper:20.0,bbper:5.7,kbb:14.3,hrper:2.5,ave:.217,der:.751,lob:81.9,ramin:67,fipmin:94,xfipmin:89,ra:2.68,fip:3.74,r_f:-1.06,xfip:3.54,tra:3.66},
+    '2015':{kper:21.0,bbper:5.8,kbb:15.2,hrper:1.4,ave:.193,der:.762,lob:67.3,ramin:82,fipmin:79,xfipmin:86,ra:3.26,fip:3.11,r_f:0.15,xfip:3.40,tra:2.91},
+    '2016':{kper:19.2,bbper:6.7,kbb:12.6,hrper:1.5,ave:.252,der:.694,lob:79.3,ramin:72,fipmin:85,xfipmin:92,ra:2.90,fip:3.40,r_f:-0.50,xfip:3.68,tra:3.63},
+    '2017':{kper:26.9,bbper:5.4,kbb:21.5,hrper:2.7,ave:.218,der:.727,lob:81.1,ramin:71,fipmin:77,xfipmin:78,ra:2.86,fip:3.12,r_f:-0.26,xfip:3.13,tra:3.18},
+    '2018':{kper:25.4,bbper:4.6,kbb:20.8,hrper:3.4,ave:.218,der:.730,lob:83.2,ramin:70,fipmin:85,xfipmin:81,ra:2.94,fip:3.58,r_f:-0.64,xfip:3.39,tra:3.71},
+    '2019':{kper:22.6,bbper:6.6,kbb:16.0,hrper:3.1,ave:.230,der:.732,lob:77.4,ramin:83,fipmin:92,xfipmin:87,ra:3.56,fip:3.95,r_f:-0.40,xfip:3.75,tra:4.28},
+    '2020':{kper:26.0,bbper:7.4,kbb:18.6,hrper:1.9,ave:.195,der:.740,lob:72.6,ramin:76,fipmin:74,xfipmin:79,ra:3.21,fip:3.10,r_f:0.10,xfip:3.34,tra:3.15},
+    '2021':{kper:21.1,bbper:5.5,kbb:15.6,hrper:2.7,ave:.262,der:.693,lob:76.2,ramin:99,fipmin:92,xfipmin:92,ra:3.74,fip:3.50,r_f:0.25,xfip:3.49,tra:3.58},
+    '2022':{kper:21.3,bbper:5.0,kbb:16.2,hrper:3.2,ave:.224,der:.744,lob:78.5,ramin:93,fipmin:104,xfipmin:92,ra:3.26,fip:3.65,r_f:-0.39,xfip:3.23,tra:3.56},
+    '2023':{kper:15.0,bbper:4.0,kbb:11.1,hrper:2.0,ave:.259,der:.708,lob:77.3,ramin:94,fipmin:97,xfipmin:106,ra:3.29,fip:3.41,r_f:-0.12,xfip:3.72,tra:3.75},
+    '2024':{kper:12.4,bbper:4.9,kbb:7.5,hrper:2.2,ave:.261,der:.715,lob:78.4,ramin:97,fipmin:115,xfipmin:116,ra:3.27,fip:3.87,r_f:-0.61,xfip:3.92,tra:4.00}
+};
 
+window.tanaka18StatsData = {
+    '2007':{kper:24.5,bbper:8.5,kbb:16.0,hrper:"-",ave:"-",der:.676,lob:74.7,ramin:102,fipmin:90,xfipmin:"-",ra:4.01,fip:3.55,r_f:0.46,xfip:"-",tra:"-"},
+    '2008':{kper:21.9,bbper:7.4,kbb:14.5,hrper:"-",ave:"-",der:.677,lob:72.8,ramin:86,fipmin:76,xfipmin:"-",ra:3.70,fip:3.24,r_f:0.46,xfip:"-",tra:"-"},
+    '2009':{kper:22.2,bbper:5.6,kbb:16.6,hrper:"-",ave:"-",der:.708,lob:83.7,ramin:56,fipmin:76,xfipmin:"-",ra:2.42,fip:3.29,r_f:-0.87,xfip:"-",tra:"-"},
+    '2010':{kper:18.5,bbper:5.0,kbb:13.5,hrper:"-",ave:"-",der:.686,lob:81.2,ramin:63,fipmin:81,xfipmin:"-",ra:2.73,fip:3.50,r_f:-0.78,xfip:"-",tra:"-"},
+    '2011':{kper:27.8,bbper:3.1,kbb:24.7,hrper:"-",ave:.212,der:.721,lob:87.6,ramin:42,fipmin:58,xfipmin:"-",ra:1.39,fip:1.90,r_f:-0.51,xfip:"-",tra:"-"},
+    '2012':{kper:24.3,bbper:2.7,kbb:21.6,hrper:"-",ave:.243,der:.689,lob:77.5,ramin:69,fipmin:52,xfipmin:"-",ra:2.34,fip:1.76,r_f:0.58,xfip:"-",tra:"-"},
+    '2013':{kper:22.3,bbper:3.9,kbb:18.4,hrper:"-",ave:.218,der:.729,lob:86.3,ramin:38,fipmin:62,xfipmin:"-",ra:1.49,fip:2.44,r_f:-0.95,xfip:"-",tra:"-"},
+    '2021':{kper:20.2,bbper:4.6,kbb:15.5,hrper:2.7,ave:.228,der:.736,lob:78.6,ramin:82,fipmin:93,xfipmin:87,ra:3.12,fip:3.52,r_f:-0.40,xfip:3.29,tra:3.59},
+    '2022':{kper:18.9,bbper:4.5,kbb:14.4,hrper:2.4,ave:.258,der:.697,lob:75.2,ramin:103,fipmin:97,xfipmin:88,ra:3.59,fip:3.38,r_f:0.21,xfip:3.08,tra:3.52},
+    '2023':{kper:13.5,bbper:6.3,kbb:7.2,hrper:2.5,ave:.289,der:.683,lob:67.4,ramin:146,fipmin:120,xfipmin:112,ra:5.10,fip:4.18,r_f:0.92,xfip:3.91,tra:4.27},
+    '2024':{kper:4.3,bbper:8.7,kbb:-4.3,hrper:4.3,ave:.316,der:.737,lob:60.6,ramin:214,fipmin:192,xfipmin:150,ra:7.20,fip:6.49,r_f:0.71,xfip:5.05,tra:7.00}
+};
 
 //西武
 
+window.hirai25StatsData = {
+    '2017':{kper:22.8,bbper:5.4,kbb:17.4,hrper:2.2,ave:.251,der:.656,lob:81.3,ramin:75,fipmin:83,xfipmin:80,ra:3.00,fip:3.35,r_f:-0.35,xfip:3.21,tra:3.60},
+    '2018':{kper:24.9,bbper:8.8,kbb:16.1,hrper:4.1,ave:.204,der:.752,lob:80.6,ramin:89,fipmin:109,xfipmin:85,ra:3.74,fip:4.58,r_f:-0.84,xfip:3.57,tra:4.67},
+    '2019':{kper:18.6,bbper:9.0,kbb:9.6,hrper:1.7,ave:.249,der:.701,lob:76.9,ramin:84,fipmin:92,xfipmin:102,ra:3.61,fip:3.94,r_f:-0.33,xfip:4.40,tra:3.85},
+    '2020':{kper:20.4,bbper:8.8,kbb:11.5,hrper:1.2,ave:.267,der:.650,lob:61.4,ramin:124,fipmin:79,xfipmin:92,ra:5.22,fip:3.31,r_f:1.91,xfip:3.89,tra:3.29},
+    '2021':{kper:16.8,bbper:5.8,kbb:11.0,hrper:2.1,ave:.291,der:.663,lob:69.9,ramin:127,fipmin:101,xfipmin:113,ra:4.82,fip:3.82,r_f:1.00,xfip:4.28,tra:3.86},
+    '2022':{kper:13.8,bbper:7.7,kbb:6.0,hrper:2.0,ave:.253,der:.709,lob:75.8,ramin:108,fipmin:119,xfipmin:123,ra:3.78,fip:4.17,r_f:-0.39,xfip:4.31,tra:4.21},
+    '2023':{kper:13.1,bbper:9.9,kbb:3.2,hrper:1.4,ave:.241,der:.743,lob:83.3,ramin:73,fipmin:108,xfipmin:116,ra:2.55,fip:3.79,r_f:-1.24,xfip:4.06,tra:3.37},
+    '2024':{kper:13.0,bbper:6.5,kbb:6.5,hrper:2.2,ave:.333,der:.639,lob:76.9,ramin:138,fipmin:122,xfipmin:116,ra:4.66,fip:4.12,r_f:0.54,xfip:3.91,tra:3.51}
+};
+
 
 //日ハム
+window.miyanishi25StatsData = {
+    '2008':{kper:12.6,bbper:7.6,kbb:5.1,hrper:"-",ave:"-",der:.722,lob:70.2,ramin:111,fipmin:114,xfipmin:"-",ra:4.76,fip:4.87,r_f:-0.11,xfip:"-",tra:"-"},
+    '2009':{kper:29.1,bbper:7.9,kbb:21.2,hrper:"-",ave:"-",der:.705,lob:85.8,ramin:67,fipmin:82,xfipmin:"-",ra:2.89,fip:3.56,r_f:-0.67,xfip:"-",tra:"-"},
+    '2010':{kper:27.1,bbper:5.0,kbb:22.1,hrper:"-",ave:"-",der:.763,lob:81.3,ramin:39,fipmin:61,xfipmin:"-",ra:1.70,fip:2.62,r_f:-0.92,xfip:"-",tra:"-"},
+    '2011':{kper:25.7,bbper:6.4,kbb:19.3,hrper:"-",ave:.196,der:.745,lob:80.6,ramin:77,fipmin:88,xfipmin:"-",ra:2.55,fip:2.90,r_f:-0.35,xfip:"-",tra:"-"},
+    '2012':{kper:23.0,bbper:5.7,kbb:17.2,hrper:"-",ave:.232,der:.717,lob:80.4,ramin:79,fipmin:85,xfipmin:"-",ra:2.70,fip:2.90,r_f:-0.20,xfip:"-",tra:"-"},
+    '2013':{kper:19.8,bbper:8.1,kbb:11.7,hrper:"-",ave:.234,der:.719,lob:81.3,ramin:59,fipmin:73,xfipmin:"-",ra:2.31,fip:2.87,r_f:-0.56,xfip:"-",tra:"-"},
+    '2014':{kper:21.1,bbper:10.6,kbb:10.6,hrper:0.9,ave:.263,der:.678,lob:84.3,ramin:63,fipmin:85,xfipmin:98,ra:2.52,fip:3.37,r_f:-0.85,xfip:3.91,tra:3.62},
+    '2015':{kper:18.4,bbper:6.7,kbb:11.7,hrper:2.5,ave:.196,der:.769,lob:62.1,ramin:108,fipmin:98,xfipmin:92,ra:4.28,fip:3.86,r_f:0.41,xfip:3.62,tra:3.75},
+    '2016':{kper:18.9,bbper:11.6,kbb:7.4,hrper:0.0,ave:.175,der:.772,lob:80.0,ramin:52,fipmin:86,xfipmin:107,ra:2.09,fip:3.48,r_f:-1.39,xfip:4.30,tra:3.36},
+    '2017':{kper:14.6,bbper:7.3,kbb:7.3,hrper:1.8,ave:.228,der:.736,lob:64.6,ramin:105,fipmin:96,xfipmin:102,ra:4.20,fip:3.86,r_f:0.35,xfip:4.08,tra:3.59},
+    '2018':{kper:21.0,bbper:10.8,kbb:10.2,hrper:0.5,ave:.191,der:.760,lob:81.7,ramin:52,fipmin:77,xfipmin:103,ra:2.20,fip:3.24,r_f:-1.04,xfip:4.34,tra:3.26},
+    '2019':{kper:28.0,bbper:3.3,kbb:24.7,hrper:0.5,ave:.186,der:.727,lob:70.7,ramin:57,fipmin:47,xfipmin:66,ra:2.47,fip:2.01,r_f:0.46,xfip:2.85,tra:1.93},
+    '2020':{kper:26.9,bbper:11.2,kbb:15.7,hrper:2.0,ave:.201,der:.728,lob:88.2,ramin:53,fipmin:88,xfipmin:93,ra:2.23,fip:3.70,r_f:-1.46,xfip:3.93,tra:3.22},
+    '2021':{kper:25.9,bbper:7.9,kbb:18.0,hrper:1.6,ave:.255,der:.636,lob:72.2,ramin:107,fipmin:78,xfipmin:86,ra:4.06,fip:2.95,r_f:1.11,xfip:3.27,tra:2.98},
+    '2022':{kper:15.4,bbper:12.1,kbb:3.3,hrper:1.1,ave:.260,der:.688,lob:62.1,ramin:162,fipmin:112,xfipmin:125,ra:5.66,fip:3.91,r_f:1.75,xfip:4.38,tra:4.04},
+    '2023':{kper:21.6,bbper:9.0,kbb:12.6,hrper:2.7,ave:.312,der:.634,lob:92.6,ramin:76,fipmin:112,xfipmin:99,ra:2.66,fip:3.91,r_f:-1.24,xfip:3.48,tra:4.07},
+    '2024':{kper:22.9,bbper:9.5,kbb:13.3,hrper:1.9,ave:.202,der:.739,lob:71.4,ramin:104,fipmin:94,xfipmin:88,ra:3.51,fip:3.16,r_f:0.34,xfip:2.98,tra:2.80}
+};
 
 
 /// 球団ごとの選手データ
 const teams = {
     "タイガース":{
-        "00 ゲラ":"Guerra00",
+        "00 ゲラ":"guerra00",
+        /*
         "13 岩崎優":"iwazaki13",
         "14 岩貞祐太":"iwasada14",
         "15 西純矢":"nishi15",
@@ -522,15 +705,15 @@ const teams = {
         "50 富田蓮":"tomita50",
         "54 加治屋蓮":"kajiya54",
         "63 石黒佑弥":"ishiguro63",
-        "64 岡留英貴":"okadome64",
-        "65 湯浅京己":"yuasa65",
+        "64 岡留英貴":"okadome64", */
+        "65 湯浅京己":"yuasa65",/*
         "69 石井大智":"ishii69",
         "92 川原陸":"kawahara92",
         "98 佐藤蓮":"satoh98",
-        "99 ビーズリー":"beasley99"
+        "99 ビーズリー":"beasley99"*/
     },
     "カープ":{
-        "11 九里亜蓮":"kuri11",
+        "11 九里亜蓮":"kuri11",/*
         "12 大道温貴":"omichi12",
         "13 森浦大輔":"morinura",
         "14 大瀬良大地":"ohsea14",
@@ -557,7 +740,7 @@ const teams = {
         "65 玉村昇悟":"tamamura65",
         "66 遠藤淳志":"endoh66",
         "68 ハーン":"hearn68",
-        "70 日高暖己":"hidaka70",
+        "70 日高暖己":"hidaka70",*/
     },
     "ベイスターズ":{
         "11 東克樹":"azuma11",
@@ -592,7 +775,7 @@ const teams = {
         "93 ディアス":"diaz93",
     },
     "ジャイアンツ":{
-        "15 大勢":"taisei15",
+        "15 大勢":"taisei15",/*
         "17 西舘勇陽":"nishidate17",
         "19 山﨑伊織":"yamasaki19",
         "20 戸郷翔征":"togou20",
@@ -608,8 +791,8 @@ const teams = {
         "46 又木鉄平":"matagi46",
         "48 田中千晴":"tanaka48",
         "49 バルドナード":"baldonado49",
-        "52 伊藤優輔":"itoh52",
-        "53 高梨雄平":"takanashi53",
+        "52 伊藤優輔":"itoh52",*/
+        "53 高梨雄平":"takanashi53",/*
         "54 直江大輔":"naoe54",
         "58 船迫大雅":"funabasama58",
         "62 横川凱":"yokogawa62",
@@ -621,7 +804,7 @@ const teams = {
         "93 松井颯":"matsui93",
         "96 菊地大稀":"kikuchi96",
         "97 井上温大":"inoue97",
-        "99 京本眞":"kyomoto99"
+        "99 京本眞":"kyomoto99"*/
     },
     "スワローズ": {
         "12 石山泰稚":"ishiyama12",
@@ -654,7 +837,7 @@ const teams = {
         "99 ヤフーレ":"yajure99" 
     },
     "ドラゴンズ":{
-        "7 根尾昂":"neo7",
+        "7 根尾昂":"neo7",/*
         "11 小笠原慎之介":"ogasawara11",
         "13 橋本侑樹":"hashimoto13",
         "16 岩嵜翔":"iwasaki14",
@@ -677,19 +860,19 @@ const teams = {
         "59 齋藤綱記" :"saito59",
         "69 松木平優太":"matsukihira69",
         "90 松山晋也":"matsuyama90",
-        "91 メヒア":"mejia91",
+        "91 メヒア":"mejia91",*/
         "92 R.マルティネス":"martinez92",
     },
 
 
     "オリックス":{
-        "00 エスピノーザ":"espinoza00",
+        "00 エスピノーザ":"espinoza00",/*
         "11 山下舜平大":"yamashita11",
         "12 東晃平":"azuma12",
         "13 宮城大弥":"miyagi13",
         "14 宇田川優希":"udagawa14",
-        "15 椋木蓮":"mukunoki15",
-        "16 平野佳寿":"hirano16",
+        "15 椋木蓮":"mukunoki15",*/
+        "16 平野佳寿":"hirano16",/*
         "17 曽谷龍平":"sotani17",
         "19 山岡泰輔":"yamaoka19",
         "20 阿部翔太":"abe20",
@@ -712,10 +895,10 @@ const teams = {
         "94 川瀬堅斗":"kawase94",
         "95 才木海翔":"saiki95",
         "96 髙島泰都":"takashima96",
-        "97 古田島成龍":"kotajima97",
+        "97 古田島成龍":"kotajima97",*/
     },
     "ロッテ":{
-        "11 澤村拓一":"sawamura11",
+        "11 澤村拓一":"sawamura11",/*
         "12 石川歩":"ishikawa12",
         "14 小島和哉":"ojima14",
         "15 美馬学":"mima15",
@@ -737,20 +920,20 @@ const teams = {
         "46 岩下大輝":"iwashita46",
         "47 鈴木昭汰":"s_suzuki47",
         "48 中村稔弥":"nakamura48",
-        "49 本前郁也":"motomae49",
-        "52 益田直也":"masuda52",
+        "49 本前郁也":"motomae49",*/
+        "52 益田直也":"masuda52",/*
         "56 中森俊介":"nakamori56",
         "58 河村説人":"kawamura58",
         "60 横山陸人":"yokoyama60",
         "62 森遼大朗":"mori62",
         "66 澤田圭佑":"sawada66",
-        "92 国吉佑樹":"kuniyoshi92",
+        "92 国吉佑樹":"kuniyoshi92",*/
 
     },
-    "ホークス": {
+    "ホークス": {/*
         "2 スチュワートJr.":"stewart02",
-        "11 津森宥紀":"tsumori11",
-        "14 又吉克樹":"mata14",
+        "11 津森宥紀":"tsumori11",*/
+        "14 又吉克樹":"mata14",/*
         "16 東浜巨":"higashihama16",
         "17 有原航平":"arihara17",
         "18 武田翔太":"takeda18",
@@ -778,13 +961,13 @@ const teams = {
         "66 松本裕樹":"matsumoto66",
         "67 笠谷俊介":"kasaya67",
         "68 木村光": "kimura68",
-        "70 田上奏大":"tanoue70",
+        "70 田上奏大":"tanoue70",*/
     },
     "楽天":{
-        "11 岸孝之":"kishi11",
+        "11 岸孝之":"kishi11",/*
         "14 則本昂大":"norimoto14",
-        "17 古謝樹":"koja17",
-        "18 田中将大":"tanaka18",
+        "17 古謝樹":"koja17",*/
+        "18 田中将大":"tanaka18",/*
         "19 荘司康誠":"shoji19",
         "20 ターリー":"turley20",
         "21 早川隆久":"hayakawa21",
@@ -807,9 +990,9 @@ const teams = {
         "61 松田啄磨":"matsuda61",
         "69 内星龍":"uchi69",
         "72 宮森智志":"miyamori72",
-        "79 清宮虎多朗":"seimiya79",
+        "79 清宮虎多朗":"seimiya79",*/
     },
-    "西武":{
+    "西武":{/*
         "11 上田大河":"ueda11",
         "12 渡邉勇太朗":"watanabe12",
         "13 髙橋光成":"takahashi13",
@@ -819,8 +1002,8 @@ const teams = {
         "19 佐藤隼輔":"satoh19",
         "20 田村伊知郎":"tamura20",
         "21 武内夏暉":"takeuchi21",
-        "23 糸川亮太":"itogawa23",
-        "25 平井克典":"hirai25",
+        "23 糸川亮太":"itogawa23",*/
+        "25 平井克典":"hirai25",/*
         "29 青山美夏人":"aoyama29",
         "34 甲斐野央":"kaino34",
         "40 浜屋将太":"hamaya40",
@@ -834,10 +1017,10 @@ const teams = {
         "61 平良海馬":"taira61",
         "69 水上由伸":"mizukami69",
         "70 豆田泰志":"mameda70",
-        "71 菅井信也":"sugai71",
+        "71 菅井信也":"sugai71",*/
 
     },
-    "日ハム":{
+    "日ハム":{/*
         "12 矢澤宏太":"yazawa12",
         "13 生田目翼":"nabatame13",
         "14 加藤貴之":"katoh14",
@@ -847,8 +1030,8 @@ const teams = {
         "19 玉井大翔":"tamai19",
         "20 上原健太":"uehara20",
         "22 杉浦稔大":"sugiura22",
-        "24 金村尚真":"kanemura24",
-        "25 宮西尚生":"miyanishi25",
+        "24 金村尚真":"kanemura24",*/
+        "25 宮西尚生":"miyanishi25",/*
         "26 田中正義":"tanaka26",
         "28 河野竜生":"kawano28",
         "29 細野晴希":"hosono29",
@@ -870,12 +1053,17 @@ const teams = {
         "67 山本拓実":"yamamoto67",
         "93 田中瑛斗":"tanaka93",
         "94 福島蓮":"fukushima94",
-        "95 柳川大晟":"yanagawa95",
+        "95 柳川大晟":"yanagawa95",*/
     }
 };
 
 // 選手ごとのデータ
 const playerStats = {
+    //阪神
+    guerra00: window.guerra00StatsData,
+    yuasa65: window.yuasa65StatsData,
+    //広島
+    kuri11: window.kuri11StatsData,
     //DeNA
     azuma11: window.azuma11StatsData,
     ise13: window.ise13StatsData,
@@ -907,6 +1095,11 @@ const playerStats = {
     kay69: window.kay69StatsData,
     horioka92: window.horioka92StatsData,
     diaz93: window.diaz93StatsData,
+
+
+    //巨人
+    taisei15: window.taisei15StatsData,
+    takanashi53: window.takanashi53StatsData,
     //ヤクルト
     ishiyama12: window.ishiyama12StatsData,
     yamashita15: window.yamashita15StatsData,
@@ -936,6 +1129,29 @@ const playerStats = {
     maruyama68: window.maruyama68StatsData,
     konno69: window.konno69StatsData,
     yajure99: window.yajure99StatsData,
+
+    //中日
+    neo7: window.neo7StatsData,
+    martinez92: window.martinez92StatsData,
+
+    //オリックス
+    hirano16: window.hirano16StatsData,
+    //ロッテ
+    sawamura11: window.sawamura11StatsData,
+    masuda52: window.masuda52StatsData,
+
+    //ソフトバンク
+    matayoshi14: window.matayoshi14StatsData,
+
+    //楽天
+    kishi11: window.kishi11StatsData,
+    tanaka18: window.tanaka18StatsData,
+
+    //西武
+    hirai25: window.hirai25StatsData,
+
+    //日ハム
+    miyanishi25: window.miyanishi25StatsData,
 };
 
 // 球団選択に基づいて選手を更新

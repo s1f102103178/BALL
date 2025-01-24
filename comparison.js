@@ -2,6 +2,21 @@
 
 //カープ
 
+window.akiyama09StatsData = {
+  '2011': {bbper:4.8,kper:20.1,bb_k:0.24,iso:.085,spd:6.6,babip:.295,ubr:"-",wsb:-0.9,wrc:23.7,wraa:-5.2,woba:.270,wrcplus:81},
+  '2012': {bbper:6.2,kper:15.6,bb_k:0.40,iso:.112,spd:6.1,babip:.345,ubr:"-",wsb:0.0,wrc:54.6,wraa:13.6,woba:.329,wrcplus:132},
+  '2013': {bbper:7.7,kper:14.0,bb_k:0.55,iso:.138,spd:6.0,babip:.300,ubr:"-",wsb:-0.2,wrc:73.6,wraa:6.9,woba:.327,wrcplus:109},
+  '2014': {bbper:12.5,kper:17.5,bb_k:0.71,iso:.101,spd:4.3,babip:.317,ubr:6.6,wsb:-0.6,wrc:65.3,wraa:6.4,woba:.340,wrcplus:107},
+  '2015': {bbper:8.9,kper:11.6,bb_k:0.77,iso:.163,spd:5.9,babip:.395,ubr:11.3,wsb:-3.2,wrc:122.4,wraa:51.4,woba:.424,wrcplus:167},
+  '2016': {bbper:11.5,kper:15.4,bb_k:0.75,iso:.126,spd:5.2,babip:.340,ubr:11.5,wsb:0.5,wrc:92.9,wraa:21.6,woba:.369,wrcplus:126},
+  '2017': {bbper:10.9,kper:14.7,bb_k:0.74,iso:.214,spd:5.5,babip:.348,ubr:4.7,wsb:0.6,wrc:115.3,wraa:45.3,woba:.412,wrcplus:159},
+  '2018': {bbper:11.2,kper:14.0,bb_k:0.80,iso:.211,spd:5.6,babip:.353,ubr:3.8,wsb:-1.5,wrc:120.5,wraa:43.9,woba:.408,wrcplus:153},
+  '2019': {bbper:11.5,kper:15.9,bb_k:0.72,iso:.168,spd:4.7,babip:.343,ubr:1.2,wsb:-0.8,wrc:111.2,wraa:34.8,woba:.390,wrcplus:141},
+  '2022': {bbper:6.3,kper:19.5,bb_k:0.32,iso:.148,spd:2.2,babip:.305,ubr:1.6,wsb:"-",wrc:20.4,wraa:3.5,woba:.337,wrcplus:115},
+  '2023': {bbper:7.2,kper:16.8,bb_k:0.43,iso:.101,spd:5.4,babip:.329,ubr:2.2,wsb:0.4,wrc:52.0,wraa:6.5,woba:.324,wrcplus:107},
+  '2024': {bbper:4.9,kper:16.4,bb_k:0.30,iso:.062,spd:2.9,babip:.341,ubr:4.7,wsb:-0.6,wrc:54.2,wraa:3.4,woba:.307,wrcplus:98}
+};
+
 //ベイスターズ
 
 window.hayashi00StatsData = {
@@ -504,11 +519,53 @@ window.koga57StatsData = {
         '2024': {kper:14.2, iso:.206, babip:.345, wsb:1.2, wraa:47.8, wrcplus:197, bbper:17.2, bb_k:1.21, spd:4.1, ubr:0.3, wrc:96.0, woba:.425}
       };
 
+      window.yanagita09StatsData = {
+        '2011': {bbper:0.0,kper:60.0,bb_k:0.00,iso:.000,spd:2.6,babip:.000,ubr:"-",wsb:0.0,wrc:-0.7,wraa:-1.2,woba:.000,wrcplus:-153},
+        '2012': {bbper:4.7,kper:26.4,bb_k:0.18,iso:.138,spd:4.2,babip:.321,ubr:"-",wsb:0.6,wrc:20.6,wraa:1.3,woba:.299,wrcplus:106},
+        '2013': {bbper:9.5,kper:28.5,bb_k:0.33,iso:.188,spd:5.5,babip:.403,ubr:"-",wsb:1.1,wrc:52.8,wraa:17.3,woba:.377,wrcplus:147},
+        '2014': {bbper:11.7,kper:21.3,bb_k:0.55,iso:.135,spd:6.1,babip:.396,ubr:4.3,wsb:3.5,wrc:99.1,wraa:34.5,woba:.397,wrcplus:155},
+        '2015': {bbper:14.5,kper:16.7,bb_k:0.87,iso:.269,spd:4.9,babip:.402,ubr:3.6,wsb:2.6,wrc:139.2,wraa:75.5,woba:.487,wrcplus:218},
+        '2016': {bbper:18.7,kper:18.1,bb_k:1.03,iso:.217,spd:6.2,babip:.361,ubr:6.0,wsb:2.7,wrc:103.8,wraa:46.8,woba:.440,wrcplus:180},
+        '2017': {bbper:16.2,kper:22.3,bb_k:0.72,iso:.279,spd:4.0,babip:.359,ubr:5.1,wsb:-0.4,wrc:108.4,wraa:49.8,woba:.441,wrcplus:183},
+        '2018': {bbper:11.3,kper:19.1,bb_k:0.59,iso:.309,spd:6.0,babip:.386,ubr:-0.4,wsb:0.5,wrc:124.9,wraa:63.4,woba:.472,wrcplus:203},
+        '2019': {bbper:17.8,kper:17.8,bb_k:1.00,iso:.227,spd:3.8,babip:.323,ubr:-1.2,wsb:0.3,wrc:30.1,wraa:12.4,woba:.424,wrcplus:171},
+        '2020': {bbper:16.3,kper:20.0,bb_k:0.82,iso:.281,spd:5.3,babip:.393,ubr:3.0,wsb:0.3,wrc:115.8,wraa:59.4,woba:.464,wrcplus:207},
+        '2021': {bbper:11.6,kper:20.6,bb_k:0.57,iso:.240,spd:4.3,babip:.345,ubr:3.3,wsb:1.0,wrc:103.6,wraa:43.8,woba:.405,wrcplus:173},
+        '2022': {bbper:8.8,kper:21.6,bb_k:0.41,iso:.211,spd:2.3,babip:.308,ubr:-6.8,wsb:-0.7,wrc:69.6,wraa:23.4,woba:.369,wrcplus:151},
+        '2023': {bbper:10.2,kper:15.5,bb_k:0.66,iso:.185,spd:2.0,babip:.326,ubr:-3.3,wsb:0.2,wrc:96.7,wraa:38.9,woba:.391,wrcplus:167},
+        '2024': {bbper:15.6,kper:16.0,bb_k:0.97,iso:.114,spd:3.9,babip:.333,ubr:2.9,wsb:0.4,wrc:31.3,wraa:11.0,woba:.369,wrcplus:153}
+      };
+
 
 //楽天
 
 
 //西武
+
+window.nakamura60StatsData = {
+  '2003': {bbper:14.3,kper:42.9,bb_k:0.33,iso:.083,spd:2.6,babip:.333,ubr:"-",wsb:0.2,wrc:0.8,wraa:-1.0,woba:.256,wrcplus:43},
+  '2004': {bbper:5.4,kper:27.0,bb_k:0.20,iso:.212,spd:2.6,babip:.333,ubr:"-",wsb:0.0,wrc:5.3,wraa:0.5,woba:.365,wrcplus:111},
+  '2005': {bbper:6.2,kper:23.9,bb_k:0.26,iso:.342,spd:2.8,babip:.260,ubr:"-",wsb:-0.7,wrc:44.0,wraa:13.8,woba:.392,wrcplus:144},
+  '2006': {bbper:9.0,kper:24.1,bb_k:0.37,iso:.152,spd:3.2,babip:.352,ubr:"-",wsb:0.0,wrc:42.2,wraa:8.7,woba:.347,wrcplus:125},
+  '2007': {bbper:8.2,kper:26.6,bb_k:0.31,iso:.164,spd:2.7,babip:.302,ubr:"-",wsb:0.3,wrc:29.1,wraa:1.2,woba:.317,wrcplus:104},
+  '2008': {bbper:9.0,kper:27.5,bb_k:0.33,iso:.324,spd:4.0,babip:.257,ubr:"-",wsb:0.0,wrc:93.2,wraa:26.6,woba:.378,wrcplus:139},
+  '2009': {bbper:9.3,kper:27.4,bb_k:0.34,iso:.365,spd:2.9,babip:.316,ubr:"-",wsb:0.1,wrc:109.5,wraa:46.1,woba:.428,wrcplus:172},
+  '2010': {bbper:12.4,kper:31.4,bb_k:0.40,iso:.306,spd:3.5,babip:.269,ubr:"-",wsb:0.1,wrc:53.5,wraa:12.5,woba:.369,wrcplus:130},
+  '2011': {bbper:12.7,kper:21.5,bb_k:0.59,iso:.331,spd:2.6,babip:.266,ubr:"-",wsb:0.1,wrc:118.3,wraa:60.9,woba:.412,wrcplus:204},
+  '2012': {bbper:11.2,kper:25.1,bb_k:0.45,iso:.229,spd:1.9,babip:.260,ubr:"-",wsb:-0.7,wrc:67.1,wraa:21.7,woba:.346,wrcplus:147},
+  '2013': {bbper:14.0,kper:33.3,bb_k:0.42,iso:.146,spd:0.3,babip:.286,ubr:"-",wsb:0.0,wrc:9.7,wraa:-2.3,woba:.289,wrcplus:80},
+  '2014': {bbper:17.0,kper:26.6,bb_k:0.64,iso:.322,spd:1.5,babip:.282,ubr:-3.2,wsb:"-",wrc:82.9,wraa:34.0,woba:.418,wrcplus:165},
+  '2015': {bbper:11.4,kper:28.7,bb_k:.040,iso:.280,spd:1.7,babip:.343,ubr:2.1,wsb:0.2,wrc:100.6,wraa:37.6,woba:.407,wrcplus:155},
+  '2016': {bbper:9.3,kper:28.9,bb_k:0.32,iso:.209,spd:2.9,babip:.292,ubr:-0.7,wsb:-0.1,wrc:51.9,wraa:5.9,woba:.345,wrcplus:108},
+  '2017': {bbper:12.6,kper:24.3,bb_k:0.52,iso:.229,spd:2.3,babip:.228,ubr:1.8,wsb:0.2,wrc:60.8,wraa:9.2,woba:.348,wrcplus:113},
+  '2018': {bbper:8.4,kper:28.6,bb_k:0.29,iso:.282,spd:2.4,babip:.304,ubr:0.7,wsb:0.1,wrc:61.9,wraa:18.1,woba:.385,wrcplus:136},
+  '2019': {bbper:9.7,kper:22.1,bb_k:0.44,iso:.242,spd:1.8,babip:.324,ubr:-5.6,wsb:0.0,wrc:88.9,wraa:26.1,woba:.384,wrcplus:137},
+  '2020': {bbper:11.4,kper:25.3,bb_k:0.45,iso:.159,spd:1.5,babip:.261,ubr:-0.9,wsb:-0.4,wrc:29.4,wraa:-3.1,woba:.308,wrcplus:87},
+  '2021': {bbper:8.2,kper:24.0,bb_k:0.34,iso:.156,spd:0.9,babip:.344,ubr:-1.1,wsb:"-",wrc:58.8,wraa:10.9,woba:.341,wrcplus:120},
+  '2022': {bbper:4.8,kper:25.9,bb_k:0.18,iso:.159,spd:0.8,babip:.222,ubr:-0.2,wsb:"-",wrc:20.4,wraa:-7.3,woba:.275,wrcplus:74},
+  '2023': {bbper:9.6,kper:23.6,bb_k:0.41,iso:.223,spd:1.4,babip:.290,ubr:-2.1,wsb:0.2,wrc:44.2,wraa:14.4,woba:.367,wrcplus:149},
+  '2024': {bbper:6.8,kper:26.8,bb_k:0.25,iso:.181,spd:1.3,babip:.228,ubr:-1.3,wsb:0.1,wrc:15.0,wraa:-3.5,woba:.277,wrcplus:83}
+};
 
 
 //日ハム
@@ -516,7 +573,7 @@ window.koga57StatsData = {
 
 /// 球団ごとの選手データ
 const teams = {
-    "タイガース":{
+    "タイガース":{/*
         "0 木浪聖也":"kinami0",
         "1 森下翔太":"morishita01",
         "2 梅野隆太郎":"umeno02",
@@ -540,14 +597,14 @@ const teams = {
         "60 小野寺暖":"onodera60",
         "61 豊田寛":"toyoda61",
         "62 植田海":"ueda62",
-        "67 髙寺望夢":"takatera67",
+        "67 髙寺望夢":"takatera67",*/
     },
-    "カープ":{
+    "カープ":{/*
         "0 上本崇司":"uemoto0",
         "00 曽根海成":"sone00",
         "2 田中広輔":"tanaka02",
-        "7 堂林翔太":"dohbayashi07",
-        "9 秋山翔吾":"akiyama09",
+        "7 堂林翔太":"dohbayashi07",*/
+        "9 秋山翔吾":"akiyama09",/*
         "27 會澤翼":"aizawa27",
         "31 坂倉将吾":"sakakura31",
         "32 石原貴規":"ishihara32",
@@ -573,7 +630,7 @@ const teams = {
         "95 J.シャイナー":"scheiner95",
         "96 中村奨成":"nakamura96",
         "97 中村貴浩":"nakamura97",
-        "99 二俣翔一":"hutamata99"
+        "99 二俣翔一":"hutamata99"*/
     },
     "ベイスターズ":{
         "00 林琢真":"hayashi00",
@@ -603,7 +660,7 @@ const teams = {
         "67 西巻賢二":"nishimaki67",
         "98 京田陽太":"kyoda98",
     },
-    "ジャイアンツ":{
+    "ジャイアンツ":{/*
         "0 増田大輝":"masuda0",
         "00 湯浅大":"yuasa00",
         "2 吉川尚輝":"yoshikawa02",
@@ -634,7 +691,7 @@ const teams = {
         "61 増田陸":"masuda61",
         "67 山瀬慎之助":"yamase67",
         "94 喜多隆介":"kita94",
-        "98 E.ウレーニャ":"urena98"
+        "98 E.ウレーニャ":"urena98"*/
 
     },
     "スワローズ": {
@@ -667,7 +724,7 @@ const teams = {
         "67 伊藤琉偉":"itoh67",
         "93 橋本星哉":"hashimoto93"
     },
-    "ドラゴンズ":{
+    "ドラゴンズ":{/*
         "00 尾田剛樹":"oda00",
         "1 岡林勇希":"okabayashi01",
         "2 田中幹也":"tanaka02",
@@ -702,11 +759,11 @@ const teams = {
         "94 A.ディカーソン":"dickerson94",
         "95 C.ロドリゲス":"rodriguez95",
         "97 樋口正修":"higuchi97",
-        "99 O.カリステ":"calixte99"
+        "99 O.カリステ":"calixte99"*/
     },
 
 
-    "オリックス":{
+    "オリックス":{/*
         "0 渡部遼人":"watanabe0",
         "1 福田周平":"hukuda01",
         "2 若月健矢":"wakatsuki02",
@@ -739,9 +796,9 @@ const teams = {
         "61 茶野篤政":"chano61",
         "64 大里昂生":"ohsato64",
         "67 中川圭太":"nakagawa67",
-        "99 杉本裕太郎":"sugimoto99"
+        "99 杉本裕太郎":"sugimoto99"*/
     },
-    "ロッテ":{
+    "ロッテ":{/*
         "0 荻野貴司":"ogino0",
         "00 池田来翔":"ikeda00",
         "1 藤原恭大":"hujiwara01",
@@ -771,16 +828,16 @@ const teams = {
         "64 菅野剛士":"sugano64",
         "65 寺地隆成":"terachi65",
         "67 茶谷健太":"chatani67",
-        "99 N.ソト":"soto99"
+        "99 N.ソト":"soto99"*/
     },
     "ホークス": {
-        "0 川瀬晃":"kawase0",
-        "3 近藤健介": "kondoh03",
+        //"0 川瀬晃":"kawase0",
+        "3 近藤健介": "kondoh03",/*
         "4 J.ダウンズ":"downs04",
         "6 今宮健太":"imamiya06",
         "7 中村晃":"nakamura07",
-        "8 牧原大成":"makihara08",
-        "9 柳田悠岐":"yanagita09",
+        "8 牧原大成":"makihara08",*/
+        "9 柳田悠岐":"yanagita09",/*
         "12 嶺井博希":"minei12",
         "13 三森大貴":"mimori13",
         "19 甲斐拓也":"kai19",
@@ -805,9 +862,9 @@ const teams = {
         "64 吉田賢吾":"yoshida64",
         "69 仲田慶介":"nakata69",
         "79 渡邉陸":"watanabe79",
-        "99 野村勇":"nomura99"
+        "99 野村勇":"nomura99"*/
     },
-    "楽天":{
+    "楽天":{/*
         "0 小深田大翔":"kobukata0",
         "2 太田光":"ohta02",
         "3 浅村栄斗":"asamura03",
@@ -834,9 +891,9 @@ const teams = {
         "65 堀内謙伍":"horiuchi65",
         "66 村林一輝":"murabayashi66",
         "70 石原彪":"ishihara70",
-        "78 辰見鴻之介":"tatsumi78"
+        "78 辰見鴻之介":"tatsumi78"*/
     },
-    "西武":{
+    "西武":{/*
         "0 児玉亮涼":"kodama0",
         "1 栗山巧":"kuriyama01",
         "2 岡田雅利":"okada02",
@@ -860,8 +917,8 @@ const teams = {
         "51 西川愛也":"nishikawa51",
         "52 陽川尚将":"yohkawa52",
         "53 牧野翔矢":"makino53",
-        "55 F.コルデロ":"cordero55",
-        "60 中村剛也":"nakamura60",
+        "55 F.コルデロ":"cordero55",*/
+        "60 中村剛也":"nakamura60",/*
         "62 滝澤夏央":"takizawa62",
         "63 長谷川信哉":"hasegawa63",
         "65 古市尊":"huruichi65",
@@ -871,9 +928,9 @@ const teams = {
         "73 高木渉":"takagi73",
         "75 奥村光一":"okumura75",
         "78 A.ガルシア":"garcia78",
-        "99 村田怜音":"murata99"
+        "99 村田怜音":"murata99"*/
     },
-    "日ハム":{
+    "日ハム":{/*
         "2 A.マルティネス":"martinez02",
         "3 加藤豪将":"katoh03",
         "4 上川畑大悟":"kamikawabata04",
@@ -904,12 +961,14 @@ const teams = {
         "64 田宮裕涼":"tamiya64",
         "66 万波中正":"mannami66",
         "98 梅林優貴":"umebayashi98",
-        "99 F.レイエス":"reyes99"
+        "99 F.レイエス":"reyes99"*/
     }
 };
 
 // 選手ごとのデータ
 const playerStats = {
+  //広島
+  akiyama09: window.akiyama09StatsData,
 
     //DeNA
     hayashi00: window.hayashi00StatsData,
@@ -970,6 +1029,11 @@ const playerStats = {
     hashimoto93:window.hashimoto93StatsData,
     //ソフトバンク
     kondoh03: window.kondoh03StatsData,
+    yanagita09: window.yanagita09StatsData,
+
+
+    //西武
+    nakamura60: window.nakamura60StatsData,
 };
 
 // 球団選択に基づいて選手を更新
