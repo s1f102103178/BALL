@@ -965,8 +965,22 @@ const yamadapitStats = [
   ];
   
   window.yamadaStatsData = {
-    '2024': {kper:20.6,bbper:7.4,kbb:13.2,hrper:1.1,ave:.321,der:.609,lob:73.6,ramin:135,fipmin:79,xfipmin:88,ra:4.35,fip:2.56,r_f:1.80,xfip:2.84,tra:2.76},
-  };
+    '2006':{kper:14.4,bbper:5.3,kbb:9.0,hrper:"-",ave:"-",der:.701,lob:69.0,ramin:106,fipmin:92,xfipmin:"-",ra:4.28,fip:3.70,r_f:0.59,xfip:"-",tra:"-"},
+    '2007':{kper:17.5,bbper:3.9,kbb:13.5,hrper:"-",ave:"-",der:.712,lob:72.3,ramin:100,fipmin:96,xfipmin:"-",ra:3.93,fip:3.78,r_f:0.15,xfip:"-",tra:"-"},
+    '2009':{kper:18.4,bbper:7.7,kbb:10.7,hrper:"-",ave:"-",der:.673,lob:72.6,ramin:109,fipmin:102,xfipmin:"-",ra:4.72,fip:4.41,r_f:0.31,xfip:"-",tra:"-"},
+    '2010':{kper:30.2,bbper:8.4,kbb:21.9,hrper:"-",ave:"-",der:.685,lob:85.2,ramin:49,fipmin:64,xfipmin:"-",ra:2.12,fip:2.77,r_f:-0.65,xfip:"-",tra:"-"},
+    '2011':{kper:31.2,bbper:5.4,kbb:25.9,hrper:"-",ave:.170,der:.774,lob:79.8,ramin:59,fipmin:61,xfipmin:"-",ra:1.94,fip:2.01,r_f:-0.07,xfip:"-",tra:"-"},
+    '2012':{kper:26.1,bbper:1.6,kbb:24.4,hrper:"-",ave:.221,der:.718,lob:76.8,ramin:70,fipmin:56,xfipmin:"-",ra:2.37,fip:1.92,r_f:0.45,xfip:"-",tra:"-"},
+    '2013':{kper:27.5,bbper:5.4,kbb:22.1,hrper:"-",ave:.242,der:.676,lob:80.9,ramin:58,fipmin:55,xfipmin:"-",ra:2.30,fip:2.17,r_f:0.13,xfip:"-",tra:"-"},
+    '2014':{kper:29.4,bbper:5.5,kbb:23.9,hrper:2.5,ave:.241,der:.685,lob:74.2,ramin:86,fipmin:74,xfipmin:66,ra:3.43,fip:2.93,r_f:0.50,xfip:2.60,tra:3.12},
+    '2015':{kper:28.7,bbper:10.3,kbb:18.4,hrper:2.9,ave:.252,der:.679,lob:78.1,ramin:103,fipmin:97,xfipmin:82,ra:4.06,fip:3.85,r_f:0.21,xfip:3.24,tra:3.84},
+    '2016':{kper:24.1,bbper:6.8,kbb:17.3,hrper:0.8,ave:.207,der:.720,lob:82.5,ramin:48,fipmin:68,xfipmin:76,ra:1.92,fip:2.74,r_f:-0.83,xfip:3.05,tra:2.40},
+    '2017':{kper:19.6,bbper:6.7,kbb:12.9,hrper:2.1,ave:.266,der:.690,lob:82.1,ramin:74,fipmin:89,xfipmin:91,ra:2.98,fip:3.58,r_f:-0.60,xfip:3.64,tra:3.29},
+    '2021':{kper:22.7,bbper:5.5,kbb:17.2,hrper:2.5,ave:.200,der:.752,lob:83.8,ramin:61,fipmin:84,xfipmin:85,ra:2.30,fip:3.18,r_f:-0.88,xfip:3.23,tra:2.98},
+    '2022':{kper:24.0,bbper:6.9,kbb:17.1,hrper:1.7,ave:.162,der:.802,lob:89.1,ramin:45,fipmin:85,xfipmin:89,ra:1.57,fip:2.98,r_f:-1.41,xfip:3.09,tra:2.61},
+    '2023':{kper:14.4,bbper:7.8,kbb:6.6,hrper:0.6,ave:.247,der:.698,lob:92.4,ramin:32,fipmin:89,xfipmin:107,ra:1.13,fip:3.12,r_f:-1.99,xfip:3.73,tra:2.68},
+    '2024':{kper:19.0,bbper:8.6,kbb:10.3,hrper:1.7,ave:.373,der:.512,lob:61.9,ramin:250,fipmin:108,xfipmin:105,ra:8.84,fip:3.65,r_f:4.79,xfip:3.53,tra:4.50}
+};
   
   
   const yamadateamStatsByYear = {
